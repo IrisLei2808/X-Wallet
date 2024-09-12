@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4C79318C2C7D09C800CD3D3C /* X_WalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C79318B2C7D09C800CD3D3C /* X_WalletApp.swift */; };
-		4C79318E2C7D09C800CD3D3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C79318D2C7D09C800CD3D3C /* ContentView.swift */; };
 		4C7931902C7D09CA00CD3D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C79318F2C7D09CA00CD3D3C /* Assets.xcassets */; };
 		4C7931932C7D09CA00CD3D3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7931922C7D09CA00CD3D3C /* Preview Assets.xcassets */; };
 		4C79319D2C7D09CA00CD3D3C /* X_WalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C79319C2C7D09CA00CD3D3C /* X_WalletTests.swift */; };
@@ -161,16 +160,23 @@
 		4CA07D732C82E881008F514F /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D722C82E880008F514F /* PasscodeView.swift */; };
 		4CA07D762C82E8E8008F514F /* SelectDarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D752C82E8E8008F514F /* SelectDarkModeView.swift */; };
 		4CA07D792C82E946008F514F /* SafariBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D782C82E946008F514F /* SafariBrowserView.swift */; };
-		4CA317D72C8D4EC900DDE7E9 /* QRScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 4CA317D62C8D4EC900DDE7E9 /* QRScanner */; };
-		4CB1A18B2C8E5E2E00E9D206 /* Blockchain in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A18A2C8E5E2E00E9D206 /* Blockchain */; };
-		4CB1A18E2C8E5E7100E9D206 /* Components in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A18D2C8E5E7100E9D206 /* Components */; };
-		4CB1A1912C8E5EA100E9D206 /* GemAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A1902C8E5EA100E9D206 /* GemAPI */; };
-		4CB1A1942C8E5EC700E9D206 /* Keystore in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A1932C8E5EC700E9D206 /* Keystore */; };
-		4CB1A1962C8E5EC700E9D206 /* KeystoreTestKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A1952C8E5EC700E9D206 /* KeystoreTestKit */; };
-		4CB1A1992C8E5F9500E9D206 /* Settings in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A1982C8E5F9500E9D206 /* Settings */; };
-		4CB1A19C2C8E5FBB00E9D206 /* Signer in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A19B2C8E5FBB00E9D206 /* Signer */; };
-		4CB1A19F2C8E5FDE00E9D206 /* SwiftHTTPClient in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A19E2C8E5FDE00E9D206 /* SwiftHTTPClient */; };
-		4CB1A1A22C8E5FFC00E9D206 /* WalletConnector in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A1A12C8E5FFC00E9D206 /* WalletConnector */; };
+		4CA57E082C8FD9F300CE83E4 /* Primitives in Frameworks */ = {isa = PBXBuildFile; productRef = 4CA57E072C8FD9F300CE83E4 /* Primitives */; };
+		4CB1A1B02C8FA24C00E9D206 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1A1AF2C8FA24C00E9D206 /* AppConfig.swift */; };
+		4CD894782C8FFA2600DFEE56 /* Blockchain in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD894772C8FFA2600DFEE56 /* Blockchain */; };
+		4CD8947C2C8FFA7D00DFEE56 /* Components in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD8947B2C8FFA7D00DFEE56 /* Components */; };
+		4CD8947F2C8FFA9D00DFEE56 /* GemAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD8947E2C8FFA9D00DFEE56 /* GemAPI */; };
+		4CD894842C8FFAC900DFEE56 /* Keystore in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD894832C8FFAC900DFEE56 /* Keystore */; };
+		4CD894882C8FFAE600DFEE56 /* QRScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD894872C8FFAE600DFEE56 /* QRScanner */; };
+		4CD8948A2C8FFAF000DFEE56 /* Settings in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD894892C8FFAF000DFEE56 /* Settings */; };
+		4CD8948D2C8FFAFD00DFEE56 /* Signer in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD8948C2C8FFAFD00DFEE56 /* Signer */; };
+		4CD894932C8FFB4800DFEE56 /* WalletConnector in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD894922C8FFB4800DFEE56 /* WalletConnector */; };
+		4CD894972C90BF9800DFEE56 /* AssetsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD894962C90BF9800DFEE56 /* AssetsService.swift */; };
+		4CD8949A2C90BFFA00DFEE56 /* ChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD894992C90BFFA00DFEE56 /* ChartService.swift */; };
+		4CD8949D2C90C9BB00DFEE56 /* BalanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8949C2C90C9BB00DFEE56 /* BalanceService.swift */; };
+		4CD894A02C90D3DC00DFEE56 /* ChainServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8949F2C90D3DC00DFEE56 /* ChainServiceFactory.swift */; };
+		4CD894A32C9167DD00DFEE56 /* NodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD894A22C9167DD00DFEE56 /* NodeService.swift */; };
+		4CD894A52C92BC7100DFEE56 /* AddNodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD894A42C92BC7100DFEE56 /* AddNodeService.swift */; };
+		4CD894A82C92BFCC00DFEE56 /* StakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD894A72C92BFCC00DFEE56 /* StakeService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,7 +199,6 @@
 /* Begin PBXFileReference section */
 		4C7931882C7D09C800CD3D3C /* X-Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "X-Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C79318B2C7D09C800CD3D3C /* X_WalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X_WalletApp.swift; sourceTree = "<group>"; };
-		4C79318D2C7D09C800CD3D3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C79318F2C7D09CA00CD3D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C7931922C7D09CA00CD3D3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C7931982C7D09CA00CD3D3C /* X-WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "X-WalletTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -348,6 +353,30 @@
 		4CA07D722C82E880008F514F /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
 		4CA07D752C82E8E8008F514F /* SelectDarkModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDarkModeView.swift; sourceTree = "<group>"; };
 		4CA07D782C82E946008F514F /* SafariBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariBrowserView.swift; sourceTree = "<group>"; };
+		4CA57E052C8FD9BE00CE83E4 /* Primitives */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Primitives; path = ../../Primitives; sourceTree = "<group>"; };
+		4CB1A1AF2C8FA24C00E9D206 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		4CD894762C8FFA1300DFEE56 /* Blockchain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Blockchain; path = "../../gem-ios/Packages/Blockchain"; sourceTree = "<group>"; };
+		4CD894792C8FFA4900DFEE56 /* WalletCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WalletCore; path = "../../gem-ios/Packages/WalletCore"; sourceTree = "<group>"; };
+		4CD8947A2C8FFA6C00DFEE56 /* Components */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Components; path = "../../gem-ios/Packages/Components"; sourceTree = "<group>"; };
+		4CD8947D2C8FFA9200DFEE56 /* GemAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GemAPI; path = "../../gem-ios/Packages/GemAPI"; sourceTree = "<group>"; };
+		4CD894802C8FFAA500DFEE56 /* Gemstone */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Gemstone; path = "../../gem-ios/Packages/Gemstone"; sourceTree = "<group>"; };
+		4CD894812C8FFAB100DFEE56 /* GemstonePrimitives */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GemstonePrimitives; path = "../../gem-ios/Packages/GemstonePrimitives"; sourceTree = "<group>"; };
+		4CD894822C8FFABB00DFEE56 /* Keystore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Keystore; path = "../../gem-ios/Packages/Keystore"; sourceTree = "<group>"; };
+		4CD894852C8FFAD000DFEE56 /* QRScanner */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = QRScanner; path = "../../gem-ios/Packages/QRScanner"; sourceTree = "<group>"; };
+		4CD894862C8FFADE00DFEE56 /* Settings */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Settings; path = "../../gem-ios/Packages/Settings"; sourceTree = "<group>"; };
+		4CD8948B2C8FFAF600DFEE56 /* Signer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Signer; path = "../../gem-ios/Packages/Signer"; sourceTree = "<group>"; };
+		4CD8948E2C8FFB0300DFEE56 /* Store */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Store; path = "../../gem-ios/Packages/Store"; sourceTree = "<group>"; };
+		4CD8948F2C8FFB1000DFEE56 /* Style */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Style; path = "../../gem-ios/Packages/Style"; sourceTree = "<group>"; };
+		4CD894902C8FFB2500DFEE56 /* SwiftHTTPClient */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftHTTPClient; path = "../../gem-ios/Packages/SwiftHTTPClient"; sourceTree = "<group>"; };
+		4CD894912C8FFB3300DFEE56 /* WalletConnector */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WalletConnector; path = "../../gem-ios/Packages/WalletConnector"; sourceTree = "<group>"; };
+		4CD894942C8FFB4C00DFEE56 /* WalletCorePrimitives */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WalletCorePrimitives; path = "../../gem-ios/Packages/WalletCorePrimitives"; sourceTree = "<group>"; };
+		4CD894962C90BF9800DFEE56 /* AssetsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsService.swift; sourceTree = "<group>"; };
+		4CD894992C90BFFA00DFEE56 /* ChartService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartService.swift; sourceTree = "<group>"; };
+		4CD8949C2C90C9BB00DFEE56 /* BalanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceService.swift; sourceTree = "<group>"; };
+		4CD8949F2C90D3DC00DFEE56 /* ChainServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainServiceFactory.swift; sourceTree = "<group>"; };
+		4CD894A22C9167DD00DFEE56 /* NodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeService.swift; sourceTree = "<group>"; };
+		4CD894A42C92BC7100DFEE56 /* AddNodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNodeService.swift; sourceTree = "<group>"; };
+		4CD894A72C92BFCC00DFEE56 /* StakeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StakeService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,17 +384,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CB1A19C2C8E5FBB00E9D206 /* Signer in Frameworks */,
-				4CB1A1912C8E5EA100E9D206 /* GemAPI in Frameworks */,
-				4CB1A1992C8E5F9500E9D206 /* Settings in Frameworks */,
-				4CB1A19F2C8E5FDE00E9D206 /* SwiftHTTPClient in Frameworks */,
-				4CB1A18E2C8E5E7100E9D206 /* Components in Frameworks */,
-				4CB1A1942C8E5EC700E9D206 /* Keystore in Frameworks */,
-				4CB1A1962C8E5EC700E9D206 /* KeystoreTestKit in Frameworks */,
-				4CB1A1A22C8E5FFC00E9D206 /* WalletConnector in Frameworks */,
-				4CA317D72C8D4EC900DDE7E9 /* QRScanner in Frameworks */,
-				4CB1A18B2C8E5E2E00E9D206 /* Blockchain in Frameworks */,
+				4CD8948D2C8FFAFD00DFEE56 /* Signer in Frameworks */,
+				4CD8947F2C8FFA9D00DFEE56 /* GemAPI in Frameworks */,
+				4CD8948A2C8FFAF000DFEE56 /* Settings in Frameworks */,
+				4CD8947C2C8FFA7D00DFEE56 /* Components in Frameworks */,
+				4CD894842C8FFAC900DFEE56 /* Keystore in Frameworks */,
+				4CA57E082C8FD9F300CE83E4 /* Primitives in Frameworks */,
+				4CD894782C8FFA2600DFEE56 /* Blockchain in Frameworks */,
+				4CD894882C8FFAE600DFEE56 /* QRScanner in Frameworks */,
 				4C7931B72C7D131E00CD3D3C /* IQKeyboardManagerSwift in Frameworks */,
+				4CD894932C8FFB4800DFEE56 /* WalletConnector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,11 +417,13 @@
 		4C79317F2C7D09C800CD3D3C = {
 			isa = PBXGroup;
 			children = (
+				4CA57E042C8FD5D000CE83E4 /* Packages */,
 				4C7931D42C7D32F300CD3D3C /* Info.plist */,
 				4C79318A2C7D09C800CD3D3C /* X-Wallet */,
 				4C79319B2C7D09CA00CD3D3C /* X-WalletTests */,
 				4C7931A52C7D09CA00CD3D3C /* X-WalletUITests */,
 				4C7931892C7D09C800CD3D3C /* Products */,
+				4CA57E062C8FD9F300CE83E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -410,7 +440,18 @@
 		4C79318A2C7D09C800CD3D3C /* X-Wallet */ = {
 			isa = PBXGroup;
 			children = (
-				4C79318D2C7D09C800CD3D3C /* ContentView.swift */,
+				4CB1A1AE2C8FA15C00E9D206 /* Nodes */,
+				4CB1A1AD2C8FA15400E9D206 /* Settings */,
+				4CB1A1AC2C8FA14900E9D206 /* Assets */,
+				4CB1A1AB2C8F9E0300E9D206 /* Charts */,
+				4CB1A1AA2C8F9DFA00E9D206 /* Connections */,
+				4CB1A1A92C8F9DDC00E9D206 /* Stake */,
+				4CB1A1A82C8F9DD600E9D206 /* Swap */,
+				4CB1A1A72C8F9DCB00E9D206 /* Onboarding */,
+				4CB1A1A62C8F9DBA00E9D206 /* Receive */,
+				4CB1A1A52C8F9DB400E9D206 /* Transfer */,
+				4CB1A1A42C8F9DAC00E9D206 /* Wallet */,
+				4CB1A1A32C8F9DA400E9D206 /* Core */,
 				4C79318B2C7D09C800CD3D3C /* X_WalletApp.swift */,
 				4C79318F2C7D09CA00CD3D3C /* Assets.xcassets */,
 				4C7931B92C7D14D400CD3D3C /* Components */,
@@ -423,6 +464,7 @@
 				4C7931BE2C7D14FB00CD3D3C /* Services */,
 				4C7931BC2C7D14EA00CD3D3C /* ViewModel */,
 				4C7931BB2C7D14E300CD3D3C /* Views */,
+				4CB1A1AF2C8FA24C00E9D206 /* AppConfig.swift */,
 			);
 			path = "X-Wallet";
 			sourceTree = "<group>";
@@ -887,6 +929,175 @@
 			path = BrowserView;
 			sourceTree = "<group>";
 		};
+		4CA57E042C8FD5D000CE83E4 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4CD894942C8FFB4C00DFEE56 /* WalletCorePrimitives */,
+				4CD894912C8FFB3300DFEE56 /* WalletConnector */,
+				4CD894902C8FFB2500DFEE56 /* SwiftHTTPClient */,
+				4CD8948F2C8FFB1000DFEE56 /* Style */,
+				4CD8948E2C8FFB0300DFEE56 /* Store */,
+				4CD8948B2C8FFAF600DFEE56 /* Signer */,
+				4CD894862C8FFADE00DFEE56 /* Settings */,
+				4CD894852C8FFAD000DFEE56 /* QRScanner */,
+				4CD894822C8FFABB00DFEE56 /* Keystore */,
+				4CD894812C8FFAB100DFEE56 /* GemstonePrimitives */,
+				4CD894802C8FFAA500DFEE56 /* Gemstone */,
+				4CD8947D2C8FFA9200DFEE56 /* GemAPI */,
+				4CD8947A2C8FFA6C00DFEE56 /* Components */,
+				4CD894792C8FFA4900DFEE56 /* WalletCore */,
+				4CD894762C8FFA1300DFEE56 /* Blockchain */,
+				4CA57E052C8FD9BE00CE83E4 /* Primitives */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		4CA57E062C8FD9F300CE83E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CB1A1A32C8F9DA400E9D206 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4CD8949E2C90D3C500DFEE56 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4CB1A1A42C8F9DAC00E9D206 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				4CD8949B2C90C9A900DFEE56 /* Services */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		4CB1A1A52C8F9DB400E9D206 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		4CB1A1A62C8F9DBA00E9D206 /* Receive */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Receive;
+			sourceTree = "<group>";
+		};
+		4CB1A1A72C8F9DCB00E9D206 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4CB1A1A82C8F9DD600E9D206 /* Swap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Swap;
+			sourceTree = "<group>";
+		};
+		4CB1A1A92C8F9DDC00E9D206 /* Stake */ = {
+			isa = PBXGroup;
+			children = (
+				4CD894A62C92BFBE00DFEE56 /* Services */,
+			);
+			path = Stake;
+			sourceTree = "<group>";
+		};
+		4CB1A1AA2C8F9DFA00E9D206 /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Connections;
+			sourceTree = "<group>";
+		};
+		4CB1A1AB2C8F9E0300E9D206 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				4CD894982C90BFEC00DFEE56 /* Services */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		4CB1A1AC2C8FA14900E9D206 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4CD894952C90BF7F00DFEE56 /* Services */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4CB1A1AD2C8FA15400E9D206 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4CB1A1AE2C8FA15C00E9D206 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				4CD894A12C9167C800DFEE56 /* Services */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		4CD894952C90BF7F00DFEE56 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CD894962C90BF9800DFEE56 /* AssetsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4CD894982C90BFEC00DFEE56 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CD894992C90BFFA00DFEE56 /* ChartService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4CD8949B2C90C9A900DFEE56 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CD8949C2C90C9BB00DFEE56 /* BalanceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4CD8949E2C90D3C500DFEE56 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CD8949F2C90D3DC00DFEE56 /* ChainServiceFactory.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4CD894A12C9167C800DFEE56 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CD894A22C9167DD00DFEE56 /* NodeService.swift */,
+				4CD894A42C92BC7100DFEE56 /* AddNodeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4CD894A62C92BFBE00DFEE56 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CD894A72C92BFCC00DFEE56 /* StakeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -905,16 +1116,15 @@
 			name = "X-Wallet";
 			packageProductDependencies = (
 				4C7931B62C7D131E00CD3D3C /* IQKeyboardManagerSwift */,
-				4CA317D62C8D4EC900DDE7E9 /* QRScanner */,
-				4CB1A18A2C8E5E2E00E9D206 /* Blockchain */,
-				4CB1A18D2C8E5E7100E9D206 /* Components */,
-				4CB1A1902C8E5EA100E9D206 /* GemAPI */,
-				4CB1A1932C8E5EC700E9D206 /* Keystore */,
-				4CB1A1952C8E5EC700E9D206 /* KeystoreTestKit */,
-				4CB1A1982C8E5F9500E9D206 /* Settings */,
-				4CB1A19B2C8E5FBB00E9D206 /* Signer */,
-				4CB1A19E2C8E5FDE00E9D206 /* SwiftHTTPClient */,
-				4CB1A1A12C8E5FFC00E9D206 /* WalletConnector */,
+				4CA57E072C8FD9F300CE83E4 /* Primitives */,
+				4CD894772C8FFA2600DFEE56 /* Blockchain */,
+				4CD8947B2C8FFA7D00DFEE56 /* Components */,
+				4CD8947E2C8FFA9D00DFEE56 /* GemAPI */,
+				4CD894832C8FFAC900DFEE56 /* Keystore */,
+				4CD894872C8FFAE600DFEE56 /* QRScanner */,
+				4CD894892C8FFAF000DFEE56 /* Settings */,
+				4CD8948C2C8FFAFD00DFEE56 /* Signer */,
+				4CD894922C8FFB4800DFEE56 /* WalletConnector */,
 			);
 			productName = "X-Wallet";
 			productReference = 4C7931882C7D09C800CD3D3C /* X-Wallet.app */;
@@ -994,15 +1204,6 @@
 			mainGroup = 4C79317F2C7D09C800CD3D3C;
 			packageReferences = (
 				4C7931B52C7D131E00CD3D3C /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
-				4CA317D52C8D4EC900DDE7E9 /* XCLocalSwiftPackageReference "../gem-ios/Packages/QRScanner" */,
-				4CB1A1892C8E5E2E00E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/Blockchain" */,
-				4CB1A18C2C8E5E7100E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/Components" */,
-				4CB1A18F2C8E5EA000E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/GemAPI" */,
-				4CB1A1922C8E5EC700E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/Keystore" */,
-				4CB1A1972C8E5F9500E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/Settings" */,
-				4CB1A19A2C8E5FBB00E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/Signer" */,
-				4CB1A19D2C8E5FDE00E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/SwiftHTTPClient" */,
-				4CB1A1A02C8E5FFC00E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/WalletConnector" */,
 			);
 			productRefGroup = 4C7931892C7D09C800CD3D3C /* Products */;
 			projectDirPath = "";
@@ -1070,6 +1271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD894A02C90D3DC00DFEE56 /* ChainServiceFactory.swift in Sources */,
 				4CA07C942C7FDCA3008F514F /* UINavigationBarAppearance.swift in Sources */,
 				4C7931C42C7D184E00CD3D3C /* SystemTheme.swift in Sources */,
 				4CA07C702C7FA3DF008F514F /* ScrollViewTopPadding.swift in Sources */,
@@ -1084,6 +1286,7 @@
 				4CA07CCD2C7FEEE1008F514F /* TabViewItem.swift in Sources */,
 				4CA07C582C7E5D67008F514F /* CheckmarkView.swift in Sources */,
 				4CA07D572C82E283008F514F /* AddNetworkCardView.swift in Sources */,
+				4CD894972C90BF9800DFEE56 /* AssetsService.swift in Sources */,
 				4CA07D2B2C824281008F514F /* LoginSeedPhraseView.swift in Sources */,
 				4C7931CD2C7D2EF600CD3D3C /* AddFavoriteCardView.swift in Sources */,
 				4CA07CDB2C7FF6E8008F514F /* TokenContactCardView.swift in Sources */,
@@ -1112,7 +1315,6 @@
 				4CA07D292C819CA1008F514F /* LoginView.swift in Sources */,
 				4CA07CE92C7FFB1E008F514F /* SwapViewTextField.swift in Sources */,
 				4CA07CEF2C7FFC79008F514F /* GraphData.swift in Sources */,
-				4C79318E2C7D09C800CD3D3C /* ContentView.swift in Sources */,
 				4C79318C2C7D09C800CD3D3C /* X_WalletApp.swift in Sources */,
 				4CA07C8E2C7FDA37008F514F /* UIImage+Extension.swift in Sources */,
 				4CA07CDF2C7FF789008F514F /* TransactionCardView.swift in Sources */,
@@ -1120,6 +1322,7 @@
 				4CA07C842C7FD8F0008F514F /* Color+Extension.swift in Sources */,
 				4CA07C642C7E8063008F514F /* HomeSection.swift in Sources */,
 				4CA07C9E2C7FE21F008F514F /* SecureStorageManager.swift in Sources */,
+				4CB1A1B02C8FA24C00E9D206 /* AppConfig.swift in Sources */,
 				4CA07D762C82E8E8008F514F /* SelectDarkModeView.swift in Sources */,
 				4CA07D272C819A70008F514F /* ScannerView.swift in Sources */,
 				4CA07D692C82E6B6008F514F /* SettingView.swift in Sources */,
@@ -1134,9 +1337,11 @@
 				4CA07C862C7FD90E008F514F /* Date+Extension.swift in Sources */,
 				4CA07C622C7E7EF5008F514F /* HeaderAmountView.swift in Sources */,
 				4CA07D252C8198F1008F514F /* QRScannerView.swift in Sources */,
+				4CD894A82C92BFCC00DFEE56 /* StakeService.swift in Sources */,
 				4CA07D072C80236E008F514F /* TransactionDataService.swift in Sources */,
 				4CA07CD32C7FF1D8008F514F /* NotificationCardView.swift in Sources */,
 				4C7931F62C7D95B400CD3D3C /* AddNetwork.swift in Sources */,
+				4CD894A32C9167DD00DFEE56 /* NodeService.swift in Sources */,
 				4CA07D132C816580008F514F /* TokenViewModel.swift in Sources */,
 				4CA07CFD2C802308008F514F /* FavoritesDataService.swift in Sources */,
 				4CA07D552C82E20C008F514F /* AddNetworkView.swift in Sources */,
@@ -1149,7 +1354,9 @@
 				4CA07C6C2C7E87EB008F514F /* PrimaryButton.swift in Sources */,
 				4CA07D4C2C82DF35008F514F /* TokenSelectContactView.swift in Sources */,
 				4CA07C962C7FDD46008F514F /* ClipboardManager.swift in Sources */,
+				4CD8949A2C90BFFA00DFEE56 /* ChartService.swift in Sources */,
 				4CA07C922C7FDC7F008F514F /* UITabBarAppearance+Extension.swift in Sources */,
+				4CD8949D2C90C9BB00DFEE56 /* BalanceService.swift in Sources */,
 				4CA07D1C2C8181CE008F514F /* SplashStartView.swift in Sources */,
 				4CA07D4F2C82E025008F514F /* ReceiveView.swift in Sources */,
 				4CA07D5A2C82E3AB008F514F /* WalletView.swift in Sources */,
@@ -1190,6 +1397,7 @@
 				4CA07C7C2C7FCD56008F514F /* SettingCardView.swift in Sources */,
 				4CA07D492C82DE99008F514F /* DatePickerView.swift in Sources */,
 				4CA07C7A2C7FC4E3008F514F /* Decimal+Double+Extension.swift in Sources */,
+				4CD894A52C92BC7100DFEE56 /* AddNodeService.swift in Sources */,
 				4CA07C782C7FB82C008F514F /* ChainViewModel.swift in Sources */,
 				4CA07CF92C802197008F514F /* AddNetworkDataService.swift in Sources */,
 				4CA07CEB2C7FFB7A008F514F /* CardView.swift in Sources */,
@@ -1569,45 +1777,6 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		4CA317D52C8D4EC900DDE7E9 /* XCLocalSwiftPackageReference "../gem-ios/Packages/QRScanner" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../gem-ios/Packages/QRScanner";
-		};
-		4CB1A1892C8E5E2E00E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/Blockchain" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../gem-ios/Packages/Blockchain";
-		};
-		4CB1A18C2C8E5E7100E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/Components" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../gem-ios/Packages/Components";
-		};
-		4CB1A18F2C8E5EA000E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/GemAPI" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../gem-ios/Packages/GemAPI";
-		};
-		4CB1A1922C8E5EC700E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/Keystore" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../gem-ios/Packages/Keystore";
-		};
-		4CB1A1972C8E5F9500E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/Settings" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../gem-ios/Packages/Settings";
-		};
-		4CB1A19A2C8E5FBB00E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/Signer" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../gem-ios/Packages/Signer";
-		};
-		4CB1A19D2C8E5FDE00E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/SwiftHTTPClient" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../gem-ios/Packages/SwiftHTTPClient";
-		};
-		4CB1A1A02C8E5FFC00E9D206 /* XCLocalSwiftPackageReference "../gem-ios/Packages/WalletConnector" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../gem-ios/Packages/WalletConnector";
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCRemoteSwiftPackageReference section */
 		4C7931B52C7D131E00CD3D3C /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -1625,43 +1794,39 @@
 			package = 4C7931B52C7D131E00CD3D3C /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
 		};
-		4CA317D62C8D4EC900DDE7E9 /* QRScanner */ = {
+		4CA57E072C8FD9F300CE83E4 /* Primitives */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = QRScanner;
+			productName = Primitives;
 		};
-		4CB1A18A2C8E5E2E00E9D206 /* Blockchain */ = {
+		4CD894772C8FFA2600DFEE56 /* Blockchain */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Blockchain;
 		};
-		4CB1A18D2C8E5E7100E9D206 /* Components */ = {
+		4CD8947B2C8FFA7D00DFEE56 /* Components */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Components;
 		};
-		4CB1A1902C8E5EA100E9D206 /* GemAPI */ = {
+		4CD8947E2C8FFA9D00DFEE56 /* GemAPI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = GemAPI;
 		};
-		4CB1A1932C8E5EC700E9D206 /* Keystore */ = {
+		4CD894832C8FFAC900DFEE56 /* Keystore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Keystore;
 		};
-		4CB1A1952C8E5EC700E9D206 /* KeystoreTestKit */ = {
+		4CD894872C8FFAE600DFEE56 /* QRScanner */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = KeystoreTestKit;
+			productName = QRScanner;
 		};
-		4CB1A1982C8E5F9500E9D206 /* Settings */ = {
+		4CD894892C8FFAF000DFEE56 /* Settings */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Settings;
 		};
-		4CB1A19B2C8E5FBB00E9D206 /* Signer */ = {
+		4CD8948C2C8FFAFD00DFEE56 /* Signer */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Signer;
 		};
-		4CB1A19E2C8E5FDE00E9D206 /* SwiftHTTPClient */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SwiftHTTPClient;
-		};
-		4CB1A1A12C8E5FFC00E9D206 /* WalletConnector */ = {
+		4CD894922C8FFB4800DFEE56 /* WalletConnector */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = WalletConnector;
 		};

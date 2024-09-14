@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-enum TransactionType {
+enum TransactionTypes {
     case send
     case receive
 }
@@ -45,7 +45,7 @@ extension TransactionType {
     }
 }
 
-struct Transaction: Identifiable, Decodable {
+struct Transactions: Identifiable, Decodable {
     
     let id: String
     

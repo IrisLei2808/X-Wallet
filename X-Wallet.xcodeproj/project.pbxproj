@@ -299,6 +299,14 @@
 		4CD895C52C977BB700DFEE56 /* SignMessageSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895C42C977BB700DFEE56 /* SignMessageSceneViewModel.swift */; };
 		4CD895C72C977BC600DFEE56 /* ConnectionProposalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895C62C977BC600DFEE56 /* ConnectionProposalViewModel.swift */; };
 		4CD895C92C977BEB00DFEE56 /* ConnectionsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895C82C977BEB00DFEE56 /* ConnectionsError.swift */; };
+		4CD895CF2C977C8E00DFEE56 /* ChartsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895CE2C977C8E00DFEE56 /* ChartsViewModel.swift */; };
+		4CD895D12C977CA400DFEE56 /* ChartValuesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895D02C977CA400DFEE56 /* ChartValuesViewModel.swift */; };
+		4CD895D32C977CB300DFEE56 /* ChartPriceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895D22C977CB300DFEE56 /* ChartPriceModel.swift */; };
+		4CD895D52C977CC500DFEE56 /* AssetDetailsInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895D42C977CC500DFEE56 /* AssetDetailsInfoViewModel.swift */; };
+		4CD895D72C977CE400DFEE56 /* ChartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895D62C977CE400DFEE56 /* ChartScene.swift */; };
+		4CD895D92C977CFC00DFEE56 /* ChartValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895D82C977CFC00DFEE56 /* ChartValues.swift */; };
+		4CD895DB2C977D0F00DFEE56 /* ChartDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895DA2C977D0F00DFEE56 /* ChartDateFormatter.swift */; };
+		4CD895DD2C977D2000DFEE56 /* ChartSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895DC2C977D2000DFEE56 /* ChartSelection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -621,6 +629,14 @@
 		4CD895C42C977BB700DFEE56 /* SignMessageSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignMessageSceneViewModel.swift; sourceTree = "<group>"; };
 		4CD895C62C977BC600DFEE56 /* ConnectionProposalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionProposalViewModel.swift; sourceTree = "<group>"; };
 		4CD895C82C977BEB00DFEE56 /* ConnectionsError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionsError.swift; sourceTree = "<group>"; };
+		4CD895CE2C977C8E00DFEE56 /* ChartsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewModel.swift; sourceTree = "<group>"; };
+		4CD895D02C977CA400DFEE56 /* ChartValuesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartValuesViewModel.swift; sourceTree = "<group>"; };
+		4CD895D22C977CB300DFEE56 /* ChartPriceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPriceModel.swift; sourceTree = "<group>"; };
+		4CD895D42C977CC500DFEE56 /* AssetDetailsInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDetailsInfoViewModel.swift; sourceTree = "<group>"; };
+		4CD895D62C977CE400DFEE56 /* ChartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartScene.swift; sourceTree = "<group>"; };
+		4CD895D82C977CFC00DFEE56 /* ChartValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartValues.swift; sourceTree = "<group>"; };
+		4CD895DA2C977D0F00DFEE56 /* ChartDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDateFormatter.swift; sourceTree = "<group>"; };
+		4CD895DC2C977D2000DFEE56 /* ChartSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSelection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1299,6 +1315,10 @@
 		4CB1A1AB2C8F9E0300E9D206 /* Charts */ = {
 			isa = PBXGroup;
 			children = (
+				4CD895CD2C977C7000DFEE56 /* ViewModels */,
+				4CD895CC2C977C6B00DFEE56 /* Views */,
+				4CD895CB2C977C6300DFEE56 /* Types */,
+				4CD895CA2C977C5B00DFEE56 /* Scenes */,
 				4CD894982C90BFEC00DFEE56 /* Services */,
 			);
 			path = Charts;
@@ -1815,6 +1835,42 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
+		4CD895CA2C977C5B00DFEE56 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895D62C977CE400DFEE56 /* ChartScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4CD895CB2C977C6300DFEE56 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895D82C977CFC00DFEE56 /* ChartValues.swift */,
+				4CD895DA2C977D0F00DFEE56 /* ChartDateFormatter.swift */,
+				4CD895DC2C977D2000DFEE56 /* ChartSelection.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		4CD895CC2C977C6B00DFEE56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CD895CD2C977C7000DFEE56 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895CE2C977C8E00DFEE56 /* ChartsViewModel.swift */,
+				4CD895D02C977CA400DFEE56 /* ChartValuesViewModel.swift */,
+				4CD895D22C977CB300DFEE56 /* ChartPriceModel.swift */,
+				4CD895D42C977CC500DFEE56 /* AssetDetailsInfoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1991,16 +2047,20 @@
 				4CD894A02C90D3DC00DFEE56 /* ChainServiceFactory.swift in Sources */,
 				4CA07C942C7FDCA3008F514F /* UINavigationBarAppearance.swift in Sources */,
 				4C7931C42C7D184E00CD3D3C /* SystemTheme.swift in Sources */,
+				4CD895DD2C977D2000DFEE56 /* ChartSelection.swift in Sources */,
 				4CA07C702C7FA3DF008F514F /* ScrollViewTopPadding.swift in Sources */,
 				4CA07D3E2C82DCC6008F514F /* NotificationView.swift in Sources */,
 				4CA07CF72C8001A7008F514F /* AddNetworkViewModel.swift in Sources */,
 				4CA07C6A2C7E85FB008F514F /* Bundle+Extension.swift in Sources */,
 				4CD894F42C960E7D00DFEE56 /* ButtonListItem.swift in Sources */,
 				4CD895BD2C97746C00DFEE56 /* ConnectionProposalScene.swift in Sources */,
+				4CD895CF2C977C8E00DFEE56 /* ChartsViewModel.swift in Sources */,
 				4CD895142C963B0000DFEE56 /* AssetIdViewModel.swift in Sources */,
 				4CA07D0D2C816141008F514F /* NotificationViewModel.swift in Sources */,
 				4CA07CA22C7FE32B008F514F /* SystemThemeManager.swift in Sources */,
+				4CD895D72C977CE400DFEE56 /* ChartScene.swift in Sources */,
 				4CD895172C963B4600DFEE56 /* ScanRecipientResult.swift in Sources */,
+				4CD895DB2C977D0F00DFEE56 /* ChartDateFormatter.swift in Sources */,
 				4CA07D6F2C82E76E008F514F /* SecurityView.swift in Sources */,
 				4CD8953C2C97468D00DFEE56 /* StakeDetailScene.swift in Sources */,
 				4C7931C72C7D1E0D00CD3D3C /* SessionView.swift in Sources */,
@@ -2057,6 +2117,7 @@
 				4CD894D02C96045B00DFEE56 /* OnstartAsyncService.swift in Sources */,
 				4CD895622C9768B900DFEE56 /* ReceiveScene.swift in Sources */,
 				4C7931CF2C7D2F7F00CD3D3C /* CustomText.swift in Sources */,
+				4CD895D32C977CB300DFEE56 /* ChartPriceModel.swift in Sources */,
 				4CD8952F2C963E2800DFEE56 /* FeeUnitViewModel.swift in Sources */,
 				4CA07C5A2C7E664C008F514F /* CustomDividerView.swift in Sources */,
 				4CA07CCB2C7FEC86008F514F /* LocalizableString.swift in Sources */,
@@ -2079,6 +2140,7 @@
 				4C79318C2C7D09C800CD3D3C /* X_WalletApp.swift in Sources */,
 				4CD8956C2C976A1800DFEE56 /* WalletDetailAddress.swift in Sources */,
 				4CD895A02C97723100DFEE56 /* VerifyPhraseWalletScene.swift in Sources */,
+				4CD895D12C977CA400DFEE56 /* ChartValuesViewModel.swift in Sources */,
 				4CD895382C97463800DFEE56 /* StakeValidatorsScene.swift in Sources */,
 				4CD895C72C977BC600DFEE56 /* ConnectionProposalViewModel.swift in Sources */,
 				4CD894CE2C9603CC00DFEE56 /* OnstartService.swift in Sources */,
@@ -2177,6 +2239,7 @@
 				4CA07D522C82E073008F514F /* SwapView.swift in Sources */,
 				4CD894C32C96020400DFEE56 /* Localized.swift in Sources */,
 				4CA07D432C82DDC4008F514F /* SuccessView.swift in Sources */,
+				4CD895D52C977CC500DFEE56 /* AssetDetailsInfoViewModel.swift in Sources */,
 				4CA07CF32C7FFCFC008F514F /* SettingOthers.swift in Sources */,
 				4CA07CA02C7FE2EE008F514F /* SeedPhraseGenerator.swift in Sources */,
 				4CA07C8A2C7FD9D5008F514F /* Int+Extension.swift in Sources */,
@@ -2197,6 +2260,7 @@
 				4CA07C6E2C7E8854008F514F /* PrimaryButtonText.swift in Sources */,
 				4CD895742C976A7900DFEE56 /* SecretPhraseViewableModel.swift in Sources */,
 				4CD895942C9771A600DFEE56 /* CreateWalletViewModel.swift in Sources */,
+				4CD895D92C977CFC00DFEE56 /* ChartValues.swift in Sources */,
 				4CD895452C97477600DFEE56 /* StakeValidatorViewModel.swift in Sources */,
 				4CA07D152C816C62008F514F /* TransactionsViewModel.swift in Sources */,
 				4CD895542C9760F900DFEE56 /* Environment.swift in Sources */,

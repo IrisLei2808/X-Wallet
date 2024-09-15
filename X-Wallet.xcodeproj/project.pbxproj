@@ -311,6 +311,16 @@
 		4CD895E62C97A4E100DFEE56 /* AssetHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895E52C97A4E100DFEE56 /* AssetHeaderViewModel.swift */; };
 		4CD895E82C97A4F500DFEE56 /* AssetScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895E72C97A4F500DFEE56 /* AssetScene.swift */; };
 		4CD895EA2C97A51300DFEE56 /* AssetSceneInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895E92C97A51300DFEE56 /* AssetSceneInput.swift */; };
+		4CD895F02C97A69B00DFEE56 /* WelcomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895EF2C97A69B00DFEE56 /* WelcomeScene.swift */; };
+		4CD895F22C97A6B600DFEE56 /* LockScreenScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895F12C97A6B600DFEE56 /* LockScreenScene.swift */; };
+		4CD895F42C97A6D600DFEE56 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895F32C97A6D600DFEE56 /* WelcomeViewModel.swift */; };
+		4CD895F62C97A6FB00DFEE56 /* LockState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895F52C97A6FB00DFEE56 /* LockState.swift */; };
+		4CD895FD2C97A7EE00DFEE56 /* FiatProvidersScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895FC2C97A7EE00DFEE56 /* FiatProvidersScene.swift */; };
+		4CD895FF2C97A7FF00DFEE56 /* BuyAssetScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895FE2C97A7FF00DFEE56 /* BuyAssetScene.swift */; };
+		4CD896012C97A81B00DFEE56 /* BuyAssetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896002C97A81B00DFEE56 /* BuyAssetViewModel.swift */; };
+		4CD896032C97A82F00DFEE56 /* FiatQuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896022C97A82F00DFEE56 /* FiatQuoteViewModel.swift */; };
+		4CD896052C97A84500DFEE56 /* FiatProvidersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896042C97A84500DFEE56 /* FiatProvidersViewModel.swift */; };
+		4CD896072C97A85400DFEE56 /* BuyAssetInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896062C97A85400DFEE56 /* BuyAssetInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -645,6 +655,16 @@
 		4CD895E52C97A4E100DFEE56 /* AssetHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetHeaderViewModel.swift; sourceTree = "<group>"; };
 		4CD895E72C97A4F500DFEE56 /* AssetScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetScene.swift; sourceTree = "<group>"; };
 		4CD895E92C97A51300DFEE56 /* AssetSceneInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSceneInput.swift; sourceTree = "<group>"; };
+		4CD895EF2C97A69B00DFEE56 /* WelcomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScene.swift; sourceTree = "<group>"; };
+		4CD895F12C97A6B600DFEE56 /* LockScreenScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenScene.swift; sourceTree = "<group>"; };
+		4CD895F32C97A6D600DFEE56 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		4CD895F52C97A6FB00DFEE56 /* LockState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockState.swift; sourceTree = "<group>"; };
+		4CD895FC2C97A7EE00DFEE56 /* FiatProvidersScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatProvidersScene.swift; sourceTree = "<group>"; };
+		4CD895FE2C97A7FF00DFEE56 /* BuyAssetScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAssetScene.swift; sourceTree = "<group>"; };
+		4CD896002C97A81B00DFEE56 /* BuyAssetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAssetViewModel.swift; sourceTree = "<group>"; };
+		4CD896022C97A82F00DFEE56 /* FiatQuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatQuoteViewModel.swift; sourceTree = "<group>"; };
+		4CD896042C97A84500DFEE56 /* FiatProvidersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatProvidersViewModel.swift; sourceTree = "<group>"; };
+		4CD896062C97A85400DFEE56 /* BuyAssetInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAssetInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -708,6 +728,8 @@
 		4C79318A2C7D09C800CD3D3C /* X-Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				4CD895F72C97A71300DFEE56 /* Fiat */,
+				4CD895EB2C97A5B600DFEE56 /* Welcome */,
 				4CD895DE2C97A4A900DFEE56 /* Asset */,
 				4CD895652C9769E000DFEE56 /* Wallets */,
 				4CB1A1A32C8F9DA400E9D206 /* Core */,
@@ -1923,6 +1945,86 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		4CD895EB2C97A5B600DFEE56 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895EE2C97A68E00DFEE56 /* Scenes */,
+				4CD895ED2C97A68700DFEE56 /* ViewModels */,
+				4CD895EC2C97A5BC00DFEE56 /* Types */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		4CD895EC2C97A5BC00DFEE56 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895F52C97A6FB00DFEE56 /* LockState.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		4CD895ED2C97A68700DFEE56 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895F32C97A6D600DFEE56 /* WelcomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4CD895EE2C97A68E00DFEE56 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895EF2C97A69B00DFEE56 /* WelcomeScene.swift */,
+				4CD895F12C97A6B600DFEE56 /* LockScreenScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4CD895F72C97A71300DFEE56 /* Fiat */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895FB2C97A7E000DFEE56 /* Scenes */,
+				4CD895FA2C97A7DA00DFEE56 /* ViewModels */,
+				4CD895F92C97A7D500DFEE56 /* Types */,
+				4CD895F82C97A7CF00DFEE56 /* Views */,
+			);
+			path = Fiat;
+			sourceTree = "<group>";
+		};
+		4CD895F82C97A7CF00DFEE56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CD895F92C97A7D500DFEE56 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				4CD896062C97A85400DFEE56 /* BuyAssetInput.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		4CD895FA2C97A7DA00DFEE56 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4CD896002C97A81B00DFEE56 /* BuyAssetViewModel.swift */,
+				4CD896022C97A82F00DFEE56 /* FiatQuoteViewModel.swift */,
+				4CD896042C97A84500DFEE56 /* FiatProvidersViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4CD895FB2C97A7E000DFEE56 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895FC2C97A7EE00DFEE56 /* FiatProvidersScene.swift */,
+				4CD895FE2C97A7FF00DFEE56 /* BuyAssetScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2160,6 +2262,7 @@
 				4CA07D0F2C816182008F514F /* PasswordStrengthViewModel.swift in Sources */,
 				4CD8955E2C97687200DFEE56 /* WalletHeaderViewModel.swift in Sources */,
 				4CD894E52C96068600DFEE56 /* WalletsService.swift in Sources */,
+				4CD896032C97A82F00DFEE56 /* FiatQuoteViewModel.swift in Sources */,
 				4CD895562C97610F00DFEE56 /* CopyType.swift in Sources */,
 				4CD895B72C97743700DFEE56 /* ConnectionsScene.swift in Sources */,
 				4CD894C12C958EFF00DFEE56 /* WalletService.swift in Sources */,
@@ -2185,6 +2288,7 @@
 				4CD895352C97302100DFEE56 /* AmountScene.swift in Sources */,
 				4CA07CF12C7FFCB5008F514F /* PasswordStrength.swift in Sources */,
 				4CD894F72C960EC500DFEE56 /* ContextMenu.swift in Sources */,
+				4CD895F42C97A6D600DFEE56 /* WelcomeViewModel.swift in Sources */,
 				4CA07CCF2C7FF026008F514F /* LoginProgressIndicatorView.swift in Sources */,
 				4CA07D292C819CA1008F514F /* LoginView.swift in Sources */,
 				4CD895802C97707C00DFEE56 /* WalletSelectImageViewModel.swift in Sources */,
@@ -2195,6 +2299,7 @@
 				4CD895A02C97723100DFEE56 /* VerifyPhraseWalletScene.swift in Sources */,
 				4CD895D12C977CA400DFEE56 /* ChartValuesViewModel.swift in Sources */,
 				4CD895382C97463800DFEE56 /* StakeValidatorsScene.swift in Sources */,
+				4CD896052C97A84500DFEE56 /* FiatProvidersViewModel.swift in Sources */,
 				4CD895C72C977BC600DFEE56 /* ConnectionProposalViewModel.swift in Sources */,
 				4CD894CE2C9603CC00DFEE56 /* OnstartService.swift in Sources */,
 				4CA07C8E2C7FDA37008F514F /* UIImage+Extension.swift in Sources */,
@@ -2221,6 +2326,7 @@
 				4CD895722C976A5F00DFEE56 /* SecretPhraseDataType.swift in Sources */,
 				4CD8957C2C97705500DFEE56 /* WalletsViewModel.swift in Sources */,
 				4CD894C52C9602EA00DFEE56 /* NavigationStateManager.swift in Sources */,
+				4CD896072C97A85400DFEE56 /* BuyAssetInput.swift in Sources */,
 				4CA07D792C82E946008F514F /* SafariBrowserView.swift in Sources */,
 				4CA07D732C82E881008F514F /* PasscodeView.swift in Sources */,
 				4CA07C902C7FDC04008F514F /* UIApplication+Extension.swift in Sources */,
@@ -2232,6 +2338,7 @@
 				4CD894BC2C958E1700DFEE56 /* TransferData.swift in Sources */,
 				4CA07C862C7FD90E008F514F /* Date+Extension.swift in Sources */,
 				4CA07C622C7E7EF5008F514F /* HeaderAmountView.swift in Sources */,
+				4CD895F22C97A6B600DFEE56 /* LockScreenScene.swift in Sources */,
 				4CD8950A2C9611C300DFEE56 /* RecipientViewModel.swift in Sources */,
 				4CA07D252C8198F1008F514F /* QRScannerView.swift in Sources */,
 				4CD8951E2C963C0900DFEE56 /* ConfirmTransferViewModel.swift in Sources */,
@@ -2252,6 +2359,7 @@
 				4CD8953F2C97472100DFEE56 /* StakeViewModel.swift in Sources */,
 				4CA07CFD2C802308008F514F /* FavoritesDataService.swift in Sources */,
 				4CA07D552C82E20C008F514F /* AddNetworkView.swift in Sources */,
+				4CD896012C97A81B00DFEE56 /* BuyAssetViewModel.swift in Sources */,
 				4CD895602C97688B00DFEE56 /* BannerViewModel.swift in Sources */,
 				4CA07C602C7E7710008F514F /* TextWithImage.swift in Sources */,
 				4CA07D3B2C82DC02008F514F /* SendDetailView.swift in Sources */,
@@ -2280,6 +2388,7 @@
 				4CD895312C97276A00DFEE56 /* FeeUnit.swift in Sources */,
 				4CD8952B2C963DE800DFEE56 /* NetworkFeeViewModel.swift in Sources */,
 				4CA07D1C2C8181CE008F514F /* SplashStartView.swift in Sources */,
+				4CD895FF2C97A7FF00DFEE56 /* BuyAssetScene.swift in Sources */,
 				4CD8955A2C97683A00DFEE56 /* BalanceViewModel.swift in Sources */,
 				4CD895BF2C977B8100DFEE56 /* ConnectionsViewModel.swift in Sources */,
 				4CD8958B2C97714100DFEE56 /* ImportWalletNavigationStack.swift in Sources */,
@@ -2303,6 +2412,7 @@
 				4CD894EE2C960DC900DFEE56 /* MainTabViewModel.swift in Sources */,
 				4CD895BB2C97745D00DFEE56 /* SignMessageScene.swift in Sources */,
 				4CA07D632C82E5C4008F514F /* MarketView.swift in Sources */,
+				4CD895F62C97A6FB00DFEE56 /* LockState.swift in Sources */,
 				4CD894F02C960E4300DFEE56 /* AddressListItem.swift in Sources */,
 				4CD894DB2C96052A00DFEE56 /* BannerSetupService.swift in Sources */,
 				4CA07CD52C7FF273008F514F /* Notification.swift in Sources */,
@@ -2313,6 +2423,8 @@
 				4CD894D52C9604D400DFEE56 /* DeviceService.swift in Sources */,
 				4CD8952D2C963E1000DFEE56 /* FeeRateViewModel.swift in Sources */,
 				4CA07C6E2C7E8854008F514F /* PrimaryButtonText.swift in Sources */,
+				4CD895F02C97A69B00DFEE56 /* WelcomeScene.swift in Sources */,
+				4CD895FD2C97A7EE00DFEE56 /* FiatProvidersScene.swift in Sources */,
 				4CD895742C976A7900DFEE56 /* SecretPhraseViewableModel.swift in Sources */,
 				4CD895942C9771A600DFEE56 /* CreateWalletViewModel.swift in Sources */,
 				4CD895D92C977CFC00DFEE56 /* ChartValues.swift in Sources */,

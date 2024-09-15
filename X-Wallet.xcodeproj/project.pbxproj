@@ -321,6 +321,15 @@
 		4CD896032C97A82F00DFEE56 /* FiatQuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896022C97A82F00DFEE56 /* FiatQuoteViewModel.swift */; };
 		4CD896052C97A84500DFEE56 /* FiatProvidersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896042C97A84500DFEE56 /* FiatProvidersViewModel.swift */; };
 		4CD896072C97A85400DFEE56 /* BuyAssetInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896062C97A85400DFEE56 /* BuyAssetInput.swift */; };
+		4CD8960A2C97AA1F00DFEE56 /* TransactionsNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896092C97AA1F00DFEE56 /* TransactionsNavigationStack.swift */; };
+		4CD8960D2C97AA3E00DFEE56 /* TransactionDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8960C2C97AA3E00DFEE56 /* TransactionDateFormatter.swift */; };
+		4CD8960F2C97AA5700DFEE56 /* TransactionSceneInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8960E2C97AA5700DFEE56 /* TransactionSceneInput.swift */; };
+		4CD896112C97AAB300DFEE56 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896102C97AAB300DFEE56 /* TransactionViewModel.swift */; };
+		4CD896132C97AACD00DFEE56 /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896122C97AACD00DFEE56 /* TransactionsViewModel.swift */; };
+		4CD896152C97AAE000DFEE56 /* TransactionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896142C97AAE000DFEE56 /* TransactionDetailViewModel.swift */; };
+		4CD896172C97AAF600DFEE56 /* TransactionStateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896162C97AAF600DFEE56 /* TransactionStateViewModel.swift */; };
+		4CD8961A2C97AB1500DFEE56 /* TransactionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896192C97AB1500DFEE56 /* TransactionScene.swift */; };
+		4CD8961C2C97AB3000DFEE56 /* TransactionsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8961B2C97AB3000DFEE56 /* TransactionsScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -665,6 +674,15 @@
 		4CD896022C97A82F00DFEE56 /* FiatQuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatQuoteViewModel.swift; sourceTree = "<group>"; };
 		4CD896042C97A84500DFEE56 /* FiatProvidersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatProvidersViewModel.swift; sourceTree = "<group>"; };
 		4CD896062C97A85400DFEE56 /* BuyAssetInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAssetInput.swift; sourceTree = "<group>"; };
+		4CD896092C97AA1F00DFEE56 /* TransactionsNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsNavigationStack.swift; sourceTree = "<group>"; };
+		4CD8960C2C97AA3E00DFEE56 /* TransactionDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDateFormatter.swift; sourceTree = "<group>"; };
+		4CD8960E2C97AA5700DFEE56 /* TransactionSceneInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionSceneInput.swift; sourceTree = "<group>"; };
+		4CD896102C97AAB300DFEE56 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		4CD896122C97AACD00DFEE56 /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
+		4CD896142C97AAE000DFEE56 /* TransactionDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewModel.swift; sourceTree = "<group>"; };
+		4CD896162C97AAF600DFEE56 /* TransactionStateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionStateViewModel.swift; sourceTree = "<group>"; };
+		4CD896192C97AB1500DFEE56 /* TransactionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionScene.swift; sourceTree = "<group>"; };
+		4CD8961B2C97AB3000DFEE56 /* TransactionsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1447,6 +1465,9 @@
 		4CD894AB2C94D9E900DFEE56 /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
+				4CD896182C97AB0600DFEE56 /* Scenes */,
+				4CD8960B2C97AA3100DFEE56 /* Types */,
+				4CD896082C97AA1000DFEE56 /* Navigation */,
 				4CD895232C963D1000DFEE56 /* ViewModels */,
 				4CD894F52C960EAA00DFEE56 /* Views */,
 				4CD894AC2C94D9F900DFEE56 /* Services */,
@@ -1653,6 +1674,10 @@
 			isa = PBXGroup;
 			children = (
 				4CD895242C963D1D00DFEE56 /* TransactionInputViewModel.swift */,
+				4CD896102C97AAB300DFEE56 /* TransactionViewModel.swift */,
+				4CD896122C97AACD00DFEE56 /* TransactionsViewModel.swift */,
+				4CD896142C97AAE000DFEE56 /* TransactionDetailViewModel.swift */,
+				4CD896162C97AAF600DFEE56 /* TransactionStateViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -2025,6 +2050,32 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
+		4CD896082C97AA1000DFEE56 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4CD896092C97AA1F00DFEE56 /* TransactionsNavigationStack.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		4CD8960B2C97AA3100DFEE56 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				4CD8960C2C97AA3E00DFEE56 /* TransactionDateFormatter.swift */,
+				4CD8960E2C97AA5700DFEE56 /* TransactionSceneInput.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		4CD896182C97AB0600DFEE56 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4CD896192C97AB1500DFEE56 /* TransactionScene.swift */,
+				4CD8961B2C97AB3000DFEE56 /* TransactionsScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2203,11 +2254,13 @@
 				4C7931C42C7D184E00CD3D3C /* SystemTheme.swift in Sources */,
 				4CD895DD2C977D2000DFEE56 /* ChartSelection.swift in Sources */,
 				4CA07C702C7FA3DF008F514F /* ScrollViewTopPadding.swift in Sources */,
+				4CD8960A2C97AA1F00DFEE56 /* TransactionsNavigationStack.swift in Sources */,
 				4CA07D3E2C82DCC6008F514F /* NotificationView.swift in Sources */,
 				4CA07CF72C8001A7008F514F /* AddNetworkViewModel.swift in Sources */,
 				4CA07C6A2C7E85FB008F514F /* Bundle+Extension.swift in Sources */,
 				4CD894F42C960E7D00DFEE56 /* ButtonListItem.swift in Sources */,
 				4CD895BD2C97746C00DFEE56 /* ConnectionProposalScene.swift in Sources */,
+				4CD896112C97AAB300DFEE56 /* TransactionViewModel.swift in Sources */,
 				4CD895CF2C977C8E00DFEE56 /* ChartsViewModel.swift in Sources */,
 				4CD895142C963B0000DFEE56 /* AssetIdViewModel.swift in Sources */,
 				4CA07D0D2C816141008F514F /* NotificationViewModel.swift in Sources */,
@@ -2231,6 +2284,7 @@
 				4CD895032C96106C00DFEE56 /* RecipientScene.swift in Sources */,
 				4CD8951A2C963BAC00DFEE56 /* ScanQRCodeNavigationStack.swift in Sources */,
 				4CA07D572C82E283008F514F /* AddNetworkCardView.swift in Sources */,
+				4CD8961A2C97AB1500DFEE56 /* TransactionScene.swift in Sources */,
 				4CD8959A2C9771EA00DFEE56 /* ImportWalletScene.swift in Sources */,
 				4CD894F22C960E6100DFEE56 /* MemoListItem.swift in Sources */,
 				4CD894972C90BF9800DFEE56 /* AssetsService.swift in Sources */,
@@ -2254,6 +2308,7 @@
 				4CD895332C972FE000DFEE56 /* NetworkFeeScene.swift in Sources */,
 				4C7931FA2C7E519100CD3D3C /* BackgroundGradientView.swift in Sources */,
 				4CA07D322C826D0C008F514F /* TabBarView.swift in Sources */,
+				4CD8960D2C97AA3E00DFEE56 /* TransactionDateFormatter.swift in Sources */,
 				4CA07D192C817C66008F514F /* CopiedMessageView.swift in Sources */,
 				4CA07D662C82E60E008F514F /* AddFavoriteView.swift in Sources */,
 				4CA07C8C2C7FDA04008F514F /* TextFieldLimitModifier.swift in Sources */,
@@ -2326,6 +2381,7 @@
 				4CD895722C976A5F00DFEE56 /* SecretPhraseDataType.swift in Sources */,
 				4CD8957C2C97705500DFEE56 /* WalletsViewModel.swift in Sources */,
 				4CD894C52C9602EA00DFEE56 /* NavigationStateManager.swift in Sources */,
+				4CD896132C97AACD00DFEE56 /* TransactionsViewModel.swift in Sources */,
 				4CD896072C97A85400DFEE56 /* BuyAssetInput.swift in Sources */,
 				4CA07D792C82E946008F514F /* SafariBrowserView.swift in Sources */,
 				4CA07D732C82E881008F514F /* PasscodeView.swift in Sources */,
@@ -2414,6 +2470,7 @@
 				4CA07D632C82E5C4008F514F /* MarketView.swift in Sources */,
 				4CD895F62C97A6FB00DFEE56 /* LockState.swift in Sources */,
 				4CD894F02C960E4300DFEE56 /* AddressListItem.swift in Sources */,
+				4CD8961C2C97AB3000DFEE56 /* TransactionsScene.swift in Sources */,
 				4CD894DB2C96052A00DFEE56 /* BannerSetupService.swift in Sources */,
 				4CA07CD52C7FF273008F514F /* Notification.swift in Sources */,
 				4CA07D172C817101008F514F /* XWalletData.swift in Sources */,
@@ -2439,6 +2496,7 @@
 				4CD895782C97703500DFEE56 /* ShowPrivateKeyViewModel.swift in Sources */,
 				4CA07D462C82DE1E008F514F /* HistoryView.swift in Sources */,
 				4CA07C882C7FD92C008F514F /* Data+Extension.swift in Sources */,
+				4CD896152C97AAE000DFEE56 /* TransactionDetailViewModel.swift in Sources */,
 				4CA07CFB2C8021E4008F514F /* DataSource.swift in Sources */,
 				4CD895A92C97728900DFEE56 /* SwapError.swift in Sources */,
 				4CA07D092C814E2D008F514F /* FavoriteChainViewModel.swift in Sources */,
@@ -2446,6 +2504,8 @@
 				4CA07CED2C7FFC43008F514F /* DeepLink.swift in Sources */,
 				4CD895062C9610EF00DFEE56 /* NameRecordView.swift in Sources */,
 				4CD894B42C94DCAD00DFEE56 /* AddTokenService.swift in Sources */,
+				4CD896172C97AAF600DFEE56 /* TransactionStateViewModel.swift in Sources */,
+				4CD8960F2C97AA5700DFEE56 /* TransactionSceneInput.swift in Sources */,
 				4CA07CE12C7FF861008F514F /* Transaction.swift in Sources */,
 				4CD894E82C960D4900DFEE56 /* WalletCoordinator.swift in Sources */,
 				4CA07CD92C7FF36D008F514F /* OptionItemWithCheckmarkView.swift in Sources */,

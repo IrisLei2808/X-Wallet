@@ -307,6 +307,10 @@
 		4CD895D92C977CFC00DFEE56 /* ChartValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895D82C977CFC00DFEE56 /* ChartValues.swift */; };
 		4CD895DB2C977D0F00DFEE56 /* ChartDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895DA2C977D0F00DFEE56 /* ChartDateFormatter.swift */; };
 		4CD895DD2C977D2000DFEE56 /* ChartSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895DC2C977D2000DFEE56 /* ChartSelection.swift */; };
+		4CD895E42C97A4D100DFEE56 /* AssetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895E32C97A4D100DFEE56 /* AssetViewModel.swift */; };
+		4CD895E62C97A4E100DFEE56 /* AssetHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895E52C97A4E100DFEE56 /* AssetHeaderViewModel.swift */; };
+		4CD895E82C97A4F500DFEE56 /* AssetScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895E72C97A4F500DFEE56 /* AssetScene.swift */; };
+		4CD895EA2C97A51300DFEE56 /* AssetSceneInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD895E92C97A51300DFEE56 /* AssetSceneInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -637,6 +641,10 @@
 		4CD895D82C977CFC00DFEE56 /* ChartValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartValues.swift; sourceTree = "<group>"; };
 		4CD895DA2C977D0F00DFEE56 /* ChartDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDateFormatter.swift; sourceTree = "<group>"; };
 		4CD895DC2C977D2000DFEE56 /* ChartSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSelection.swift; sourceTree = "<group>"; };
+		4CD895E32C97A4D100DFEE56 /* AssetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetViewModel.swift; sourceTree = "<group>"; };
+		4CD895E52C97A4E100DFEE56 /* AssetHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetHeaderViewModel.swift; sourceTree = "<group>"; };
+		4CD895E72C97A4F500DFEE56 /* AssetScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetScene.swift; sourceTree = "<group>"; };
+		4CD895E92C97A51300DFEE56 /* AssetSceneInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSceneInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -700,6 +708,7 @@
 		4C79318A2C7D09C800CD3D3C /* X-Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				4CD895DE2C97A4A900DFEE56 /* Asset */,
 				4CD895652C9769E000DFEE56 /* Wallets */,
 				4CB1A1A32C8F9DA400E9D206 /* Core */,
 				4CB1A1A42C8F9DAC00E9D206 /* Wallet */,
@@ -1871,6 +1880,49 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		4CD895DE2C97A4A900DFEE56 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895E22C97A4C200DFEE56 /* ViewModels */,
+				4CD895E12C97A4BC00DFEE56 /* Scenes */,
+				4CD895E02C97A4B700DFEE56 /* Views */,
+				4CD895DF2C97A4B200DFEE56 /* Types */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		4CD895DF2C97A4B200DFEE56 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895E92C97A51300DFEE56 /* AssetSceneInput.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		4CD895E02C97A4B700DFEE56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CD895E12C97A4BC00DFEE56 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895E72C97A4F500DFEE56 /* AssetScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4CD895E22C97A4C200DFEE56 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4CD895E32C97A4D100DFEE56 /* AssetViewModel.swift */,
+				4CD895E52C97A4E100DFEE56 /* AssetHeaderViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2129,6 +2181,7 @@
 				4CA07D302C826C07008F514F /* TabbarView.swift in Sources */,
 				4CA07D0B2C81611E008F514F /* NetworkViewModel.swift in Sources */,
 				4CA07C982C7FDDD0008F514F /* Colors.swift in Sources */,
+				4CD895E62C97A4E100DFEE56 /* AssetHeaderViewModel.swift in Sources */,
 				4CD895352C97302100DFEE56 /* AmountScene.swift in Sources */,
 				4CA07CF12C7FFCB5008F514F /* PasswordStrength.swift in Sources */,
 				4CD894F72C960EC500DFEE56 /* ContextMenu.swift in Sources */,
@@ -2184,10 +2237,12 @@
 				4CD8951E2C963C0900DFEE56 /* ConfirmTransferViewModel.swift in Sources */,
 				4CD894A82C92BFCC00DFEE56 /* StakeService.swift in Sources */,
 				4CA07D072C80236E008F514F /* TransactionDataService.swift in Sources */,
+				4CD895EA2C97A51300DFEE56 /* AssetSceneInput.swift in Sources */,
 				4CD8958D2C97715600DFEE56 /* CreateWalletNavigationStack.swift in Sources */,
 				4CD895122C963ADF00DFEE56 /* AssetViewModel.swift in Sources */,
 				4CA07CD32C7FF1D8008F514F /* NotificationCardView.swift in Sources */,
 				4CD894AA2C940CD800DFEE56 /* PriceService.swift in Sources */,
+				4CD895E82C97A4F500DFEE56 /* AssetScene.swift in Sources */,
 				4C7931F62C7D95B400CD3D3C /* AddNetwork.swift in Sources */,
 				4CD895C92C977BEB00DFEE56 /* ConnectionsError.swift in Sources */,
 				4CD894A32C9167DD00DFEE56 /* NodeService.swift in Sources */,
@@ -2265,6 +2320,7 @@
 				4CA07D152C816C62008F514F /* TransactionsViewModel.swift in Sources */,
 				4CD895542C9760F900DFEE56 /* Environment.swift in Sources */,
 				4CD895642C97695700DFEE56 /* ReceiveViewModel.swift in Sources */,
+				4CD895E42C97A4D100DFEE56 /* AssetViewModel.swift in Sources */,
 				4CA07CFF2C80231B008F514F /* NetworkDataService.swift in Sources */,
 				4CD8950D2C963A7400DFEE56 /* TransferError.swift in Sources */,
 				4CD8951C2C963BD300DFEE56 /* ConfirmTransferScene.swift in Sources */,

@@ -228,7 +228,7 @@ struct TransactionViewModel {
             case .incoming:
                 return TextStyle(font: Font.system(.callout, weight: .semibold), color: Colors.green)
             case .outgoing, .selfTransfer:
-                return TextStyle(font: Font.system(.callout, weight: .semibold), color: Colors.black)
+                return TextStyle(font: Font.system(.callout, weight: .semibold), color: Colors.pureBlack)
             }
         case .stakeRewards,
             .swap:

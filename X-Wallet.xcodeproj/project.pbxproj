@@ -50,7 +50,6 @@
 		4CA07C722C7FA459008F514F /* ChainNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07C712C7FA459008F514F /* ChainNetwork.swift */; };
 		4CA07C742C7FA4D6008F514F /* SelectNetworkCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07C732C7FA4D6008F514F /* SelectNetworkCardView.swift */; };
 		4CA07C762C7FAB93008F514F /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07C752C7FAB93008F514F /* Chain.swift */; };
-		4CA07C782C7FB82C008F514F /* ChainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07C772C7FB82C008F514F /* ChainViewModel.swift */; };
 		4CA07C7A2C7FC4E3008F514F /* Decimal+Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07C792C7FC4E3008F514F /* Decimal+Double+Extension.swift */; };
 		4CA07C7C2C7FCD56008F514F /* SettingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07C7B2C7FCD56008F514F /* SettingCardView.swift */; };
 		4CA07C7E2C7FD4AE008F514F /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07C7D2C7FD4AE008F514F /* Font+Extension.swift */; };
@@ -95,7 +94,6 @@
 		4CA07CDB2C7FF6E8008F514F /* TokenContactCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07CDA2C7FF6E8008F514F /* TokenContactCardView.swift */; };
 		4CA07CDD2C7FF744008F514F /* TokenContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07CDC2C7FF744008F514F /* TokenContact.swift */; };
 		4CA07CDF2C7FF789008F514F /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07CDE2C7FF789008F514F /* TransactionCardView.swift */; };
-		4CA07CE12C7FF861008F514F /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07CE02C7FF861008F514F /* Transaction.swift */; };
 		4CA07CE32C7FF89A008F514F /* TooltipShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07CE22C7FF89A008F514F /* TooltipShape.swift */; };
 		4CA07CE52C7FFA35008F514F /* ToolbarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07CE42C7FFA35008F514F /* ToolbarContentView.swift */; };
 		4CA07CE72C7FFB01008F514F /* SwapCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07CE62C7FFB01008F514F /* SwapCardView.swift */; };
@@ -120,14 +118,12 @@
 		4CA07D0D2C816141008F514F /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D0C2C816141008F514F /* NotificationViewModel.swift */; };
 		4CA07D0F2C816182008F514F /* PasswordStrengthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D0E2C816182008F514F /* PasswordStrengthViewModel.swift */; };
 		4CA07D132C816580008F514F /* TokenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D122C816580008F514F /* TokenViewModel.swift */; };
-		4CA07D152C816C62008F514F /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D142C816C62008F514F /* TransactionsViewModel.swift */; };
 		4CA07D172C817101008F514F /* XWalletData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D162C817101008F514F /* XWalletData.swift */; };
 		4CA07D192C817C66008F514F /* CopiedMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D182C817C66008F514F /* CopiedMessageView.swift */; };
 		4CA07D1C2C8181CE008F514F /* SplashStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D1B2C8181CE008F514F /* SplashStartView.swift */; };
 		4CA07D1E2C8181FA008F514F /* SplashStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D1D2C8181FA008F514F /* SplashStackView.swift */; };
 		4CA07D202C819428008F514F /* WalletSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D1F2C819428008F514F /* WalletSetupView.swift */; };
 		4CA07D222C8195CD008F514F /* WalletImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D212C8195CD008F514F /* WalletImportView.swift */; };
-		4CA07D252C8198F1008F514F /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D242C8198F1008F514F /* QRScannerView.swift */; };
 		4CA07D272C819A70008F514F /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D262C819A70008F514F /* ScannerView.swift */; };
 		4CA07D292C819CA1008F514F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D282C819CA1008F514F /* LoginView.swift */; };
 		4CA07D2B2C824281008F514F /* LoginSeedPhraseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D2A2C824281008F514F /* LoginSeedPhraseView.swift */; };
@@ -155,7 +151,6 @@
 		4CA07D692C82E6B6008F514F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D682C82E6B6008F514F /* SettingView.swift */; };
 		4CA07D6C2C82E6F8008F514F /* SelectLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D6B2C82E6F8008F514F /* SelectLanguageView.swift */; };
 		4CA07D6F2C82E76E008F514F /* SecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D6E2C82E76E008F514F /* SecurityView.swift */; };
-		4CA07D712C82E832008F514F /* PasscodeEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D702C82E832008F514F /* PasscodeEntryView.swift */; };
 		4CA07D732C82E881008F514F /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D722C82E880008F514F /* PasscodeView.swift */; };
 		4CA07D762C82E8E8008F514F /* SelectDarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D752C82E8E8008F514F /* SelectDarkModeView.swift */; };
 		4CA07D792C82E946008F514F /* SafariBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA07D782C82E946008F514F /* SafariBrowserView.swift */; };
@@ -469,7 +464,6 @@
 		4CA07C712C7FA459008F514F /* ChainNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainNetwork.swift; sourceTree = "<group>"; };
 		4CA07C732C7FA4D6008F514F /* SelectNetworkCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectNetworkCardView.swift; sourceTree = "<group>"; };
 		4CA07C752C7FAB93008F514F /* Chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
-		4CA07C772C7FB82C008F514F /* ChainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainViewModel.swift; sourceTree = "<group>"; };
 		4CA07C792C7FC4E3008F514F /* Decimal+Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Double+Extension.swift"; sourceTree = "<group>"; };
 		4CA07C7B2C7FCD56008F514F /* SettingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCardView.swift; sourceTree = "<group>"; };
 		4CA07C7D2C7FD4AE008F514F /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
@@ -514,7 +508,6 @@
 		4CA07CDA2C7FF6E8008F514F /* TokenContactCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenContactCardView.swift; sourceTree = "<group>"; };
 		4CA07CDC2C7FF744008F514F /* TokenContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenContact.swift; sourceTree = "<group>"; };
 		4CA07CDE2C7FF789008F514F /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
-		4CA07CE02C7FF861008F514F /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		4CA07CE22C7FF89A008F514F /* TooltipShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipShape.swift; sourceTree = "<group>"; };
 		4CA07CE42C7FFA35008F514F /* ToolbarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarContentView.swift; sourceTree = "<group>"; };
 		4CA07CE62C7FFB01008F514F /* SwapCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapCardView.swift; sourceTree = "<group>"; };
@@ -539,14 +532,12 @@
 		4CA07D0C2C816141008F514F /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
 		4CA07D0E2C816182008F514F /* PasswordStrengthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStrengthViewModel.swift; sourceTree = "<group>"; };
 		4CA07D122C816580008F514F /* TokenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenViewModel.swift; sourceTree = "<group>"; };
-		4CA07D142C816C62008F514F /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
 		4CA07D162C817101008F514F /* XWalletData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XWalletData.swift; sourceTree = "<group>"; };
 		4CA07D182C817C66008F514F /* CopiedMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopiedMessageView.swift; sourceTree = "<group>"; };
 		4CA07D1B2C8181CE008F514F /* SplashStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashStartView.swift; sourceTree = "<group>"; };
 		4CA07D1D2C8181FA008F514F /* SplashStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashStackView.swift; sourceTree = "<group>"; };
 		4CA07D1F2C819428008F514F /* WalletSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSetupView.swift; sourceTree = "<group>"; };
 		4CA07D212C8195CD008F514F /* WalletImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletImportView.swift; sourceTree = "<group>"; };
-		4CA07D242C8198F1008F514F /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
 		4CA07D262C819A70008F514F /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		4CA07D282C819CA1008F514F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		4CA07D2A2C824281008F514F /* LoginSeedPhraseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSeedPhraseView.swift; sourceTree = "<group>"; };
@@ -574,7 +565,6 @@
 		4CA07D682C82E6B6008F514F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		4CA07D6B2C82E6F8008F514F /* SelectLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageView.swift; sourceTree = "<group>"; };
 		4CA07D6E2C82E76E008F514F /* SecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityView.swift; sourceTree = "<group>"; };
-		4CA07D702C82E832008F514F /* PasscodeEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeEntryView.swift; sourceTree = "<group>"; };
 		4CA07D722C82E880008F514F /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
 		4CA07D752C82E8E8008F514F /* SelectDarkModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDarkModeView.swift; sourceTree = "<group>"; };
 		4CA07D782C82E946008F514F /* SafariBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariBrowserView.swift; sourceTree = "<group>"; };
@@ -1019,7 +1009,6 @@
 				4C7931C32C7D184E00CD3D3C /* SystemTheme.swift */,
 				4CA07C7F2C7FD853008F514F /* TabViewItemType.swift */,
 				4CA07CDC2C7FF744008F514F /* TokenContact.swift */,
-				4CA07CE02C7FF861008F514F /* Transaction.swift */,
 				4CA07D162C817101008F514F /* XWalletData.swift */,
 				4CA07D312C826D0C008F514F /* TabBarView.swift */,
 			);
@@ -1061,14 +1050,12 @@
 		4C7931BC2C7D14EA00CD3D3C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				4CA07C772C7FB82C008F514F /* ChainViewModel.swift */,
 				4CA07CF62C8001A7008F514F /* AddNetworkViewModel.swift */,
 				4CA07D082C814E2D008F514F /* FavoriteChainViewModel.swift */,
 				4CA07D0A2C81611E008F514F /* NetworkViewModel.swift */,
 				4CA07D0C2C816141008F514F /* NotificationViewModel.swift */,
 				4CA07D0E2C816182008F514F /* PasswordStrengthViewModel.swift */,
 				4CA07D122C816580008F514F /* TokenViewModel.swift */,
-				4CA07D142C816C62008F514F /* TransactionsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1200,7 +1187,6 @@
 		4CA07D232C8198E6008F514F /* QRScanner */ = {
 			isa = PBXGroup;
 			children = (
-				4CA07D242C8198F1008F514F /* QRScannerView.swift */,
 				4CA07D262C819A70008F514F /* ScannerView.swift */,
 			);
 			path = QRScanner;
@@ -1363,7 +1349,6 @@
 			isa = PBXGroup;
 			children = (
 				4CA07D6E2C82E76E008F514F /* SecurityView.swift */,
-				4CA07D702C82E832008F514F /* PasscodeEntryView.swift */,
 				4CA07D722C82E880008F514F /* PasscodeView.swift */,
 			);
 			path = SecurityView;
@@ -2640,7 +2625,6 @@
 				4CA07D662C82E60E008F514F /* AddFavoriteView.swift in Sources */,
 				4CA07C8C2C7FDA04008F514F /* TextFieldLimitModifier.swift in Sources */,
 				4CD895962C9771B800DFEE56 /* VerifyPhraseViewModel.swift in Sources */,
-				4CA07D712C82E832008F514F /* PasscodeEntryView.swift in Sources */,
 				4CD8966C2C97B24A00DFEE56 /* NodeStatusViewModel.swift in Sources */,
 				4CA07D0F2C816182008F514F /* PasswordStrengthViewModel.swift in Sources */,
 				4CD8955E2C97687200DFEE56 /* WalletHeaderViewModel.swift in Sources */,
@@ -2739,7 +2723,6 @@
 				4CA07C622C7E7EF5008F514F /* HeaderAmountView.swift in Sources */,
 				4CD895F22C97A6B600DFEE56 /* LockScreenScene.swift in Sources */,
 				4CD8950A2C9611C300DFEE56 /* RecipientViewModel.swift in Sources */,
-				4CA07D252C8198F1008F514F /* QRScannerView.swift in Sources */,
 				4CD8951E2C963C0900DFEE56 /* ConfirmTransferViewModel.swift in Sources */,
 				4CD894A82C92BFCC00DFEE56 /* StakeService.swift in Sources */,
 				4CA07D072C80236E008F514F /* TransactionDataService.swift in Sources */,
@@ -2856,7 +2839,6 @@
 				4CD895942C9771A600DFEE56 /* CreateWalletViewModel.swift in Sources */,
 				4CD895D92C977CFC00DFEE56 /* ChartValues.swift in Sources */,
 				4CD895452C97477600DFEE56 /* StakeValidatorViewModel.swift in Sources */,
-				4CA07D152C816C62008F514F /* TransactionsViewModel.swift in Sources */,
 				4CD8963B2C97AE9D00DFEE56 /* SelectAssetType.swift in Sources */,
 				4CD895542C9760F900DFEE56 /* Environment.swift in Sources */,
 				4CD895642C97695700DFEE56 /* ReceiveViewModel.swift in Sources */,
@@ -2881,7 +2863,6 @@
 				4CD894B42C94DCAD00DFEE56 /* AddTokenService.swift in Sources */,
 				4CD896172C97AAF600DFEE56 /* TransactionStateViewModel.swift in Sources */,
 				4CD8960F2C97AA5700DFEE56 /* TransactionSceneInput.swift in Sources */,
-				4CA07CE12C7FF861008F514F /* Transaction.swift in Sources */,
 				4CD896662C97B21000DFEE56 /* NotificationsViewModel.swift in Sources */,
 				4CD8968A2C97B40F00DFEE56 /* AddNodeSceneViewModel.swift in Sources */,
 				4CD894E82C960D4900DFEE56 /* WalletCoordinator.swift in Sources */,
@@ -2908,7 +2889,6 @@
 				4CA07C7A2C7FC4E3008F514F /* Decimal+Double+Extension.swift in Sources */,
 				4CD8950F2C963A9F00DFEE56 /* RecipientAddress.swift in Sources */,
 				4CD894A52C92BC7100DFEE56 /* AddNodeService.swift in Sources */,
-				4CA07C782C7FB82C008F514F /* ChainViewModel.swift in Sources */,
 				4CA07CF92C802197008F514F /* AddNetworkDataService.swift in Sources */,
 				4CA07CEB2C7FFB7A008F514F /* CardView.swift in Sources */,
 				4CA07C802C7FD853008F514F /* TabViewItemType.swift in Sources */,

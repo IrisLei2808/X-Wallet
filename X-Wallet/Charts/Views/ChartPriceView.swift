@@ -20,7 +20,7 @@ struct ChartPriceView: View {
             HStack(alignment: .center, spacing: Spacing.tiny) {
                 Text(price)
                     .font(.title2)
-                    .foregroundColor(Colors.black)
+                    .foregroundColor(Colors.pureBlack)
                 
                 if let priceChange {
                     Text(priceChange)
@@ -33,7 +33,7 @@ struct ChartPriceView: View {
                 if let date {
                     Text(date)
                         .font(.footnote)
-                        .foregroundColor(Colors.gray)
+                        .foregroundColor(Color.gray)
                 }
             }.frame(height: 16)
         }

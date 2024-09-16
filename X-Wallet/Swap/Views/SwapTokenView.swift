@@ -28,7 +28,7 @@ struct SwapTokenView: View {
                             AssetImageView(assetImage: model.assetImage)
                             Text(model.symbol)
                             Image(.arrowDown)
-                                .colorMultiply(Colors.gray)
+                                .colorMultiply(Color.gray)
                                 .frame(width: 12, height: 12)
                                 .opacity(0.8)
                         }

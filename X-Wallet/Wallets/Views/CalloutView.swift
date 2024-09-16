@@ -49,7 +49,7 @@ public extension CalloutView {
             titleStyle: TextStyle(font: .system(.body, weight: .medium), color: Colors.red),
             subtitle: subtitle,
             subtitleStyle: TextStyle(font: .callout, color: Colors.red),
-            backgroundColor: Colors.redLight
+            backgroundColor: Colors.red
         )
     }
 }

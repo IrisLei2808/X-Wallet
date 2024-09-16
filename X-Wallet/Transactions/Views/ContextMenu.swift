@@ -83,6 +83,6 @@ struct ContextMenuItem: View {
         Button(role: .none) { action?() } label: {
             Label(title, systemImage: image)
         }
-        .tint(Colors.gray)
+        .tint(Color.gray)
     }
 }

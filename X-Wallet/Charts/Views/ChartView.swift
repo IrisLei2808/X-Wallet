@@ -61,7 +61,7 @@ struct ChartView: View {
                     Circle()
                         .strokeBorder(Colors.blue, lineWidth: 2)
                         .background(Circle()
-                        .foregroundColor(Colors.white))
+                        .foregroundColor(Colors.whiteDarkBlue))
                         .frame(width: 12)
                 }
                 .foregroundStyle(Colors.blue)
@@ -109,7 +109,7 @@ struct ChartView: View {
                         let x = calculateX(x: lowerBoundX, maxWidth: maxWidth, geoWidth: geo.size.width)
                         Text(model.lowerBoundValueText)
                             .font(.caption2)
-                            .foregroundColor(Colors.gray)
+                            .foregroundColor(Color.gray)
                             .frame(width: maxWidth)
                             .offset(x: x, y: lowerBoundY1 + Spacing.extraLarge)
                     }
@@ -119,7 +119,7 @@ struct ChartView: View {
                         
                         Text(model.upperBoundValueText)
                             .font(.caption2)
-                            .foregroundColor(Colors.gray)
+                            .foregroundColor(Color.gray)
                             .frame(maxWidth: maxWidth)
                             .offset(x: x, y: 0)
                     }

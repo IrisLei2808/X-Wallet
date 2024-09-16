@@ -43,9 +43,9 @@ struct PriceViewModel {
     }
     
     var priceAmountColor: Color {
-        guard let price = price else { return Colors.gray }
+        guard let price = price else { return Color.gray }
         if price.price == 0 {
-            return Colors.grayLight
+            return Color.gray
         } else if price.price >= 0 {
             return Colors.green
         }
@@ -67,7 +67,7 @@ struct PriceViewModel {
     
     static func priceChangeTextColor(value: Double?) -> Color {
         if value == 0 {
-            return Colors.grayLight
+            return Color.gray
         } else if value ?? 0 >= 0 {
             return Colors.green
         }
@@ -76,11 +76,11 @@ struct PriceViewModel {
     
     var priceChangeTextBackgroundColor: Color {
         if priceChange == 0 {
-            return Colors.grayVeryLight
+            return Color.gray
         } else if priceChange ?? 0 > 0 {
-            return Colors.greenLight
+            return Colors.green
         }
-        return Colors.redLight
+        return Colors.red
     }
     
     func fiatAmountText(amount: Double) -> String {

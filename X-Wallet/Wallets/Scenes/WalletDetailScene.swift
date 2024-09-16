@@ -91,7 +91,7 @@ struct WalletDetailScene: View {
             }
         }
         .padding(.bottom, Spacing.scene.bottom)
-        .background(Colors.grayBackground)
+        .background(Color.gray)
         .frame(maxWidth: .infinity)
         .onChange(of: name, onChangeWalletName)
         .navigationTitle(model.title)

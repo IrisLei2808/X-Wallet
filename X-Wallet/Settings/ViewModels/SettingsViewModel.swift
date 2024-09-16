@@ -44,13 +44,13 @@ class SettingsViewModel: ObservableObject {
 
     var walletsTitle: String { Localized.Wallets.title }
     var walletsValue: String { "\(walletsService.keystore.wallets.count)" }
-    var walletsImage: Image { Image(.settingsWallets) }
+    var walletsImage: Image { Image(.wallet) }
 
     var securityTitle: String { Localized.Settings.security }
-    var securityImage: Image { Image(.settingsSecurity) }
+    var securityImage: Image { Image(.security) }
 
     var notificationsTitle: String { Localized.Settings.Notifications.title }
-    var notificationsImage: Image { Image(.settingsNotifications) }
+    var notificationsImage: Image { Image(.notificationFill) }
 
     var currencyTitle: String { Localized.Settings.currency }
     var currencyValue: String {
@@ -61,7 +61,7 @@ class SettingsViewModel: ObservableObject {
         }
         return currentCurrency
     }
-    var currencyImage: Image { Image(.settingsCurrency) }
+    var currencyImage: Image { Image(.bitcoin) }
 
     var lanugageTitle: String { Localized.Settings.language }
     var lanugageValue: String {
@@ -71,10 +71,10 @@ class SettingsViewModel: ObservableObject {
         return Locale.current.localizedString(forLanguageCode: code)?.capitalized ?? ""
     }
 
-    var lanugageImage: Image { Image(.settingsLanguage) }
+    var lanugageImage: Image { Image(.language) }
 
     var chainsTitle: String { Localized.Settings.Networks.title }
-    var chainsImage: Image { Image(.settingsNetworks) }
+    var chainsImage: Image { Image(.fantomOpera) }
 
     var walletConnectTitle: String { Localized.WalletConnect.title }
     var walletConnectImage: Image { Image(.walletConnect) }
@@ -95,7 +95,7 @@ class SettingsViewModel: ObservableObject {
     var aboutUsImage: Image { Image(.settingsGem) }
 
     var rateAppTitle: String { Localized.Settings.rateApp }
-    var rateAppImage: Image { Image(.settingsRate) }
+    var rateAppImage: Image { Image(.star) }
 
     var developerModeTitle: String { Localized.Settings.developer }
     var developerModeImage: Image { Image(.settingsDeveloper) }

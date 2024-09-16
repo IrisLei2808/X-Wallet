@@ -6,12 +6,8 @@
 //
 
 import Foundation
-import Blockchain
-import Primitives
 import Store
-import GemAPI
-import Combine
-import Settings
+import Primitives
 import Keystore
 
 public struct WalletService {

@@ -125,7 +125,7 @@ struct WalletImportView: View {
             /// Show QR Scanner view
             .fullScreenCover(isPresented: $showQRScanner) {
                 NavigationView {
-                    QRScannerView(scannedCode: $scannedQRCode)
+                  //  QRScannerView(scannedCode: $scannedQRCode)
                 }
             }
             .onChange(of: scannedQRCode) { newValue in

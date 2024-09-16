@@ -174,7 +174,7 @@ struct TransactionDetailViewModel {
             case .confirmed:
                 return TextStyle.calloutSecondary.color
             case .pending:
-                return Colors.orange
+                return Color.orange
             case .failed, .reverted:
                 return Colors.red
             }

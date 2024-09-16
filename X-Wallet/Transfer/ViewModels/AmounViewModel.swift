@@ -27,14 +27,14 @@ class AmounViewModel: ObservableObject {
     let amountRecipientData: AmountRecipientData
     let wallet: Wallet
     let keystore: any Keystore
-    let walletsService: WalletService
+    let walletsService: WalletsService
     let stakeService: StakeService
 
     public init(
         amountRecipientData: AmountRecipientData,
         wallet: Wallet,
         keystore: any Keystore,
-        walletsService: WalletService,
+        walletsService: WalletsService,
         stakeService: StakeService,
         currentValidator: DelegationValidator? = .none
     ) {

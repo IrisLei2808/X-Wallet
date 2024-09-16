@@ -70,7 +70,7 @@ extension SettingsScene {
             NavigationLink(value: Scenes.Currency()) {
                 ListItemView(title: Localized.Settings.currency, subtitle: model.currencyValue, image: Image(.settingsCurrency))
             }
-
+            #imageLiteral(resourceName: "Screenshot 2024-09-16 at 13.29.57.png")
             NavigationCustomLink(
                 with: ListItemView(
                     title: model.lanugageTitle,
@@ -193,5 +193,16 @@ extension SettingsScene {
         Task {
             try await model.fetch()
         }
+    }
+}
+
+// MARK: - Bundle extensions
+
+extension Bundle {
+    var releaseVersionNumber: String {
+        return infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
+    }
+    var buildVersionNumber: Int {
+        return Int((infoDictionary?["CFBundleVersion"] as? String ?? "")) ?? 0
     }
 }

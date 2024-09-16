@@ -75,8 +75,8 @@ struct BalanceViewModel {
     
     var balanceTextColor: Color {
         guard !balance.total.isZero else {
-            return Colors.gray
+            return Color.gray
         }
-        return  Colors.black
+        return  Colors.pureBlack
     }
 }

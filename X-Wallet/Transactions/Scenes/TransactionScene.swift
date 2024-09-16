@@ -112,7 +112,7 @@ struct TransactionScene: View {
                 }
             }
         }
-        .background(Colors.grayBackground)
+        .background(Color.gray)
         .navigationTitle(model.title)
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {

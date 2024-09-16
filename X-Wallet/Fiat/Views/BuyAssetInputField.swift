@@ -29,14 +29,14 @@ struct BuyAssetInputField: View {
         HStack(alignment: .center, spacing: 0) {
             Text(currencySymbol)
                 .font(.system(size: 52).weight(.semibold))
-                .foregroundStyle(Colors.black)
+                .foregroundStyle(Colors.pureBlack)
                 .lineLimit(1)
                 .padding(.trailing, Spacing.tiny)
                 .fixedSize(horizontal: true, vertical: false)
 
             TextField(String.zero, text: $text)
                 .keyboardType(.numberPad)
-                .foregroundStyle(Colors.black)
+                .foregroundStyle(Colors.pureBlack)
                 .font(.system(size: 52))
                 .fontWeight(.semibold)
                 .multilineTextAlignment(.center)

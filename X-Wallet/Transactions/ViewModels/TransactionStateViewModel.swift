@@ -29,16 +29,16 @@ struct TransactionStateViewModel {
     
     var color: Color {
         switch state {
-        case .confirmed: Colors.gray
-        case .pending: Colors.orange
+        case .confirmed: Color.gray
+        case .pending: Color.orange
         case .failed, .reverted: Colors.red
         }
     }
     
     var background: Color {
         switch state {
-        case .confirmed: Colors.gray
-        case .pending: Colors.orange.opacity(0.15)
+        case .confirmed: Color.gray
+        case .pending: Color.orange.opacity(0.15)
         case .failed, .reverted: Colors.red.opacity(0.15)
         }
     }

@@ -46,7 +46,7 @@ struct ReceiveScene: View {
             .frame(maxWidth: 320)
             .overlay(
                 RoundedRectangle(cornerRadius: 10)
-                    .stroke(Colors.grayLight, lineWidth: 0.5)
+                    .stroke(Color.gray, lineWidth: 0.5)
             )
             Spacer()
             Button(action: {

@@ -48,7 +48,7 @@ struct ConnectionProposalScene: View {
             
         }
         .padding(.bottom, Spacing.scene.bottom)
-        .background(Colors.grayBackground)
+        .background(Color.gray)
         .navigationTitle(model.title)
     }
     

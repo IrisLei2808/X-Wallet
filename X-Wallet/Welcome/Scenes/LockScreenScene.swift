@@ -24,6 +24,6 @@ struct LockScreenScene: View {
             Spacer()
         }
         .frame(maxWidth: .infinity)
-        .background(Colors.white)
+        .background(Colors.whiteDarkBlue)
     }
 }

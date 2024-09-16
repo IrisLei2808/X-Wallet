@@ -109,7 +109,7 @@ struct RecipientScene: View {
         .onAppear {
             focusedField = .address
         }
-        .background(Colors.grayBackground)
+        .background(Color.gray)
         .sheet(item: $isPresentingScanner) { value in
             ScanQRCodeNavigationStack() {
                 onHandleScan($0, for: value)

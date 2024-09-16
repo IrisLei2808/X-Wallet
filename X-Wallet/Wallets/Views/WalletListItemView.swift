@@ -54,7 +54,7 @@ struct WalletListItemView: View {
                 Spacer()
 
                 if currentWallet == model.wallet {
-                    Image(.walletSelected)
+                    Image(.tickmark)
                 }
 
                 Button(
@@ -89,7 +89,7 @@ struct WalletListItemView: View {
                     Label("", systemImage: SystemImage.settings)
                 }
             )
-            .tint(Colors.gray)
+            .tint(Color.gray)
             Button(
                 Localized.Common.delete,
                 action: { onDelete(model.wallet) }

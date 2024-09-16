@@ -35,7 +35,7 @@ struct BuyAssetScene: View {
         }
         .listStyle(.insetGrouped)
         .padding(.bottom, Spacing.scene.bottom)
-        .background(Colors.grayBackground)
+        .background(Color.gray)
         .frame(maxWidth: .infinity)
         .navigationTitle(model.title)
         .debounce(
@@ -80,7 +80,7 @@ extension BuyAssetScene {
                 .frame(minHeight: Sizing.list.image)
         }
         .frame(maxWidth: .infinity)
-        .background(Colors.grayBackground)
+        .background(Color.gray)
         .listRowInsets(EdgeInsets())
     }
 
@@ -100,11 +100,11 @@ extension BuyAssetScene {
                             onSelect(amount: amount)
                         }
                         .font(.subheadline.weight(.semibold))
-                        .foregroundStyle(Colors.black)
+                        .foregroundStyle(Colors.pureBlack)
                         .padding(.all, Spacing.small)
                         .background(
                             RoundedRectangle(cornerRadius: 8)
-                                .foregroundStyle(Colors.grayVeryLight)
+                                .foregroundStyle(Color.gray)
                         )
                         .buttonStyle(.plain)
                     }

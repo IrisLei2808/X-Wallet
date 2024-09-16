@@ -59,7 +59,7 @@ struct ChartScene: View {
                                     .fontWeight(.medium)
                                     .frame(maxWidth: .infinity)
                                     .padding(6)
-                                    .background(model.currentPeriod == period.period ? Colors.white : .clear)
+                                    .background(model.currentPeriod == period.period ? Colors.whiteDarkBlue : .clear)
                                     .cornerRadius(8)
                             }
                             .buttonStyle(.borderless)

@@ -32,7 +32,7 @@ struct BannerView: View {
                         }
                     )
                     .padding(.vertical, Spacing.small)
-                    .foregroundColor(Colors.gray)
+                    .foregroundColor(Color.gray)
                 }
             }
         }

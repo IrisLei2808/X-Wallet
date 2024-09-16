@@ -234,6 +234,8 @@ class WalletsService {
         try nodeService.update(chain: chain)
     }
 
+    //
+
     func setupWallet(_ wallet: Wallet) throws {
         let chains = wallet.accounts.map { $0.chain }.asSet()
             .intersection(AssetConfiguration.allChains)

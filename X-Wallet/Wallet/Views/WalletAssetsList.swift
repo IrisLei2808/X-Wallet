@@ -57,7 +57,7 @@ struct WalletAssetsList: View {
                         Button(Localized.Common.hide, role: .destructive) {
                             hideAsset?(asset.asset.id)
                         }
-                        .tint(Colors.gray)
+                        .tint(Color.gray)
                     }
             }
         }

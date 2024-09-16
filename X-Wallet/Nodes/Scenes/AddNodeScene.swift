@@ -40,7 +40,7 @@ struct AddNodeScene: View {
             focusedField = .address
         }
         .padding(.bottom, Spacing.scene.bottom)
-        .background(Colors.grayBackground)
+        .background(Color.gray)
         .frame(maxWidth: .infinity)
         .navigationTitle(model.title)
         .navigationBarTitleDisplayMode(.inline)

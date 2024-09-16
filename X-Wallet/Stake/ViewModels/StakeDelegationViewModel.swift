@@ -54,7 +54,7 @@ struct StakeDelegationViewModel {
             .undelegating,
             .activating,
             .deactivating:
-            Colors.orange
+            Color.orange
         case .inactive,
             .awaitingWithdrawal:
             Colors.red

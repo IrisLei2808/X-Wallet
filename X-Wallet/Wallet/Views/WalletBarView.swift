@@ -49,7 +49,7 @@ struct WalletBarView: View {
                     AssetImageView(assetImage: image, size: 24, overlayImageSize: 10)
                 }
                 Text(model.name)
-                    .foregroundColor(Colors.black)
+                    .foregroundColor(Colors.pureBlack)
                     .fontWeight(.medium)
                     .font(.body)
                     .lineLimit(1)
@@ -59,7 +59,7 @@ struct WalletBarView: View {
                         .resizable()
                         .frame(width: 11, height: 6)
                         .fontWeight(.medium)
-                        .foregroundColor(Colors.gray)
+                        .foregroundColor(Color.gray)
                 }
             }
             .padding(.horizontal, 4)

@@ -41,7 +41,7 @@ struct AmountScene: View {
                         HStack(alignment: .center, spacing: 0) {
                             TextField(String.zero, text: $amount)
                                 .keyboardType(.decimalPad)
-                                .foregroundColor(Colors.black)
+                                .foregroundColor(Colors.pureBlack)
                                 .font(.system(size: 52))
                                 .fontWeight(.semibold)
                                 .focused($focusedField, equals: .amount)
@@ -58,7 +58,7 @@ struct AmountScene: View {
                                 .font(.system(size: 52))
                                 .fontWeight(.semibold)
                                 .lineLimit(1)
-                                .foregroundColor(Colors.black)
+                                .foregroundColor(Colors.pureBlack)
                                 .fixedSize()
                         }
 
@@ -148,7 +148,7 @@ struct AmountScene: View {
             .buttonStyle(.blue())
         }
         .navigationBarTitleDisplayMode(.inline)
-        .background(Colors.grayBackground)
+        .background(Color.gray)
         .navigationTitle(model.title)
         .navigationDestination(for: $transferData) {
             ConfirmTransferScene(

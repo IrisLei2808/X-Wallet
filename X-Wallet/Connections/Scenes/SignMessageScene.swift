@@ -38,7 +38,7 @@ struct SignMessageScene: View {
             .frame(maxWidth: Spacing.scene.button.maxWidth)
         }
         .padding(.bottom, Spacing.scene.bottom)
-        .background(Colors.grayBackground)
+        .background(Color.gray)
         .navigationTitle(Localized.SignMessage.title)
     }
     

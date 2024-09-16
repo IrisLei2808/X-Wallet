@@ -52,7 +52,7 @@ struct SwapScene: View {
             .frame(maxWidth: Spacing.scene.button.maxWidth)
         }
         .navigationTitle(model.title)
-        .background(Colors.grayBackground)
+        .background(Color.gray)
         .navigationDestination(for: $model.transferData) {
             ConfirmTransferScene(
                 model: ConfirmTransferViewModel(

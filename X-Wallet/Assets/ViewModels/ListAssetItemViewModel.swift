@@ -63,7 +63,7 @@ struct ListAssetItemViewModel: ListAssetItemViewable {
             return .price(
                 price: TextValue(
                     text: assetDataModel.priceAmountText,
-                    style: TextStyle(font: .footnote, color: Colors.gray)
+                    style: TextStyle(font: .footnote, color: Color.gray)
                 ),
                 priceChangePercentage24h: TextValue(
                     text: assetDataModel.priceChangeText,
@@ -95,7 +95,7 @@ struct ListAssetItemViewModel: ListAssetItemViewable {
                 ),
                 totalFiat: TextValue(
                     text: assetDataModel.fiatBalanceText,
-                    style: TextStyle(font: .footnote, color: Colors.gray)
+                    style: TextStyle(font: .footnote, color: Color.gray)
                 )
             )
         case .manage:

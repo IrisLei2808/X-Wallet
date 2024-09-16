@@ -117,7 +117,7 @@ struct ImportWalletScene: View {
                             }
                         }
                     }
-                    .listRowBackground(Colors.white)
+                    .listRowBackground(Colors.whiteDarkBlue)
                 }
             }
             Spacer()
@@ -136,7 +136,7 @@ struct ImportWalletScene: View {
             .buttonStyle(.blue())
         }
         .padding(.bottom, Spacing.scene.bottom)
-        .background(Colors.grayBackground)
+        .background(Color.gray)
         .alert(item: $isPresentingErrorMessage) {
             Alert(title: Text(Localized.Errors.validation("")), message: Text($0))
         }
@@ -253,4 +253,3 @@ struct ImportWalletScene: View {
 extension String: Identifiable {
     public var id: String { self }
 }
-ndation

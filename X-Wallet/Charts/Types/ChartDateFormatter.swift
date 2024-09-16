@@ -5,6 +5,7 @@
 //  Created by Duc Le on 9/15/24.
 //
 
+import Foundation
 import Primitives
 
 struct ChartDateFormatter {

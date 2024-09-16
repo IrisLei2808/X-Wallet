@@ -346,6 +346,34 @@
 		4CD8963D2C97AEAF00DFEE56 /* SelectAssetInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8963C2C97AEAF00DFEE56 /* SelectAssetInput.swift */; };
 		4CD8963F2C97AEC400DFEE56 /* AddTokenInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8963E2C97AEC400DFEE56 /* AddTokenInput.swift */; };
 		4CD896412C97AEDB00DFEE56 /* ChainsFilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896402C97AEDB00DFEE56 /* ChainsFilterType.swift */; };
+		4CD896432C97B07300DFEE56 /* SettingsNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896422C97B07300DFEE56 /* SettingsNavigationStack.swift */; };
+		4CD896452C97B08A00DFEE56 /* NetworkSelectorNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896442C97B08A00DFEE56 /* NetworkSelectorNavigationStack.swift */; };
+		4CD896472C97B0A300DFEE56 /* WalletsNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896462C97B0A300DFEE56 /* WalletsNavigationStack.swift */; };
+		4CD8964A2C97B0C600DFEE56 /* RateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896492C97B0C600DFEE56 /* RateService.swift */; };
+		4CD8964D2C97B0E800DFEE56 /* QRScanResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8964C2C97B0E800DFEE56 /* QRScanResources.swift */; };
+		4CD8964F2C97B0F600DFEE56 /* WalletImportType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8964E2C97B0F600DFEE56 /* WalletImportType.swift */; };
+		4CD896512C97B10E00DFEE56 /* WordSuggestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896502C97B10E00DFEE56 /* WordSuggestor.swift */; };
+		4CD896532C97B12100DFEE56 /* WalletNameGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896522C97B12100DFEE56 /* WalletNameGenerator.swift */; };
+		4CD896552C97B13E00DFEE56 /* CommunityLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896542C97B13E00DFEE56 /* CommunityLink.swift */; };
+		4CD896572C97B16200DFEE56 /* NodeStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896562C97B16200DFEE56 /* NodeStatus.swift */; };
+		4CD8965A2C97B18E00DFEE56 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896592C97B18E00DFEE56 /* SettingsViewModel.swift */; };
+		4CD8965C2C97B1A700DFEE56 /* ChainSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8965B2C97B1A700DFEE56 /* ChainSettingsViewModel.swift */; };
+		4CD8965E2C97B1C200DFEE56 /* ChainListSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8965D2C97B1C200DFEE56 /* ChainListSettingsViewModel.swift */; };
+		4CD896602C97B1D100DFEE56 /* CurrencySceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8965F2C97B1D100DFEE56 /* CurrencySceneViewModel.swift */; };
+		4CD896622C97B1F000DFEE56 /* SecurityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896612C97B1F000DFEE56 /* SecurityViewModel.swift */; };
+		4CD896642C97B1FF00DFEE56 /* ChainNodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896632C97B1FF00DFEE56 /* ChainNodeViewModel.swift */; };
+		4CD896662C97B21000DFEE56 /* NotificationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896652C97B21000DFEE56 /* NotificationsViewModel.swift */; };
+		4CD896682C97B22500DFEE56 /* DeveloperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896672C97B22500DFEE56 /* DeveloperViewModel.swift */; };
+		4CD8966A2C97B23600DFEE56 /* NetworkSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896692C97B23600DFEE56 /* NetworkSelectorViewModel.swift */; };
+		4CD8966C2C97B24A00DFEE56 /* NodeStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8966B2C97B24A00DFEE56 /* NodeStatusViewModel.swift */; };
+		4CD8966F2C97B26800DFEE56 /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8966E2C97B26800DFEE56 /* SettingsScene.swift */; };
+		4CD896712C97B28500DFEE56 /* DeveloperScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896702C97B28500DFEE56 /* DeveloperScene.swift */; };
+		4CD896732C97B29E00DFEE56 /* AboutUsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896722C97B29E00DFEE56 /* AboutUsScene.swift */; };
+		4CD896752C97B2B000DFEE56 /* ChainListSettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896742C97B2B000DFEE56 /* ChainListSettingsScene.swift */; };
+		4CD896772C97B2C400DFEE56 /* ChainSettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896762C97B2C400DFEE56 /* ChainSettingsScene.swift */; };
+		4CD896792C97B2D900DFEE56 /* CurrencyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896782C97B2D900DFEE56 /* CurrencyScene.swift */; };
+		4CD8967B2C97B2EC00DFEE56 /* SecurityScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8967A2C97B2EC00DFEE56 /* SecurityScene.swift */; };
+		4CD8967D2C97B2FC00DFEE56 /* NotificationsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8967C2C97B2FC00DFEE56 /* NotificationsScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -715,6 +743,34 @@
 		4CD8963C2C97AEAF00DFEE56 /* SelectAssetInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAssetInput.swift; sourceTree = "<group>"; };
 		4CD8963E2C97AEC400DFEE56 /* AddTokenInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTokenInput.swift; sourceTree = "<group>"; };
 		4CD896402C97AEDB00DFEE56 /* ChainsFilterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainsFilterType.swift; sourceTree = "<group>"; };
+		4CD896422C97B07300DFEE56 /* SettingsNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNavigationStack.swift; sourceTree = "<group>"; };
+		4CD896442C97B08A00DFEE56 /* NetworkSelectorNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSelectorNavigationStack.swift; sourceTree = "<group>"; };
+		4CD896462C97B0A300DFEE56 /* WalletsNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsNavigationStack.swift; sourceTree = "<group>"; };
+		4CD896492C97B0C600DFEE56 /* RateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateService.swift; sourceTree = "<group>"; };
+		4CD8964C2C97B0E800DFEE56 /* QRScanResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanResources.swift; sourceTree = "<group>"; };
+		4CD8964E2C97B0F600DFEE56 /* WalletImportType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletImportType.swift; sourceTree = "<group>"; };
+		4CD896502C97B10E00DFEE56 /* WordSuggestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSuggestor.swift; sourceTree = "<group>"; };
+		4CD896522C97B12100DFEE56 /* WalletNameGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletNameGenerator.swift; sourceTree = "<group>"; };
+		4CD896542C97B13E00DFEE56 /* CommunityLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityLink.swift; sourceTree = "<group>"; };
+		4CD896562C97B16200DFEE56 /* NodeStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeStatus.swift; sourceTree = "<group>"; };
+		4CD896592C97B18E00DFEE56 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		4CD8965B2C97B1A700DFEE56 /* ChainSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainSettingsViewModel.swift; sourceTree = "<group>"; };
+		4CD8965D2C97B1C200DFEE56 /* ChainListSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainListSettingsViewModel.swift; sourceTree = "<group>"; };
+		4CD8965F2C97B1D100DFEE56 /* CurrencySceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySceneViewModel.swift; sourceTree = "<group>"; };
+		4CD896612C97B1F000DFEE56 /* SecurityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewModel.swift; sourceTree = "<group>"; };
+		4CD896632C97B1FF00DFEE56 /* ChainNodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainNodeViewModel.swift; sourceTree = "<group>"; };
+		4CD896652C97B21000DFEE56 /* NotificationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewModel.swift; sourceTree = "<group>"; };
+		4CD896672C97B22500DFEE56 /* DeveloperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperViewModel.swift; sourceTree = "<group>"; };
+		4CD896692C97B23600DFEE56 /* NetworkSelectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSelectorViewModel.swift; sourceTree = "<group>"; };
+		4CD8966B2C97B24A00DFEE56 /* NodeStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeStatusViewModel.swift; sourceTree = "<group>"; };
+		4CD8966E2C97B26800DFEE56 /* SettingsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
+		4CD896702C97B28500DFEE56 /* DeveloperScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperScene.swift; sourceTree = "<group>"; };
+		4CD896722C97B29E00DFEE56 /* AboutUsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsScene.swift; sourceTree = "<group>"; };
+		4CD896742C97B2B000DFEE56 /* ChainListSettingsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainListSettingsScene.swift; sourceTree = "<group>"; };
+		4CD896762C97B2C400DFEE56 /* ChainSettingsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainSettingsScene.swift; sourceTree = "<group>"; };
+		4CD896782C97B2D900DFEE56 /* CurrencyScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyScene.swift; sourceTree = "<group>"; };
+		4CD8967A2C97B2EC00DFEE56 /* SecurityScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityScene.swift; sourceTree = "<group>"; };
+		4CD8967C2C97B2FC00DFEE56 /* NotificationsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1421,6 +1477,10 @@
 		4CB1A1AD2C8FA15400E9D206 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				4CD8966D2C97B25800DFEE56 /* Scenes */,
+				4CD896582C97B17A00DFEE56 /* ViewModels */,
+				4CD8964B2C97B0D500DFEE56 /* Types */,
+				4CD896482C97B0B500DFEE56 /* Services */,
 				4CD895182C963B9800DFEE56 /* Navigation */,
 			);
 			path = Settings;
@@ -1712,6 +1772,9 @@
 			isa = PBXGroup;
 			children = (
 				4CD895192C963BAC00DFEE56 /* ScanQRCodeNavigationStack.swift */,
+				4CD896422C97B07300DFEE56 /* SettingsNavigationStack.swift */,
+				4CD896442C97B08A00DFEE56 /* NetworkSelectorNavigationStack.swift */,
+				4CD896462C97B0A300DFEE56 /* WalletsNavigationStack.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -2148,6 +2211,59 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
+		4CD896482C97B0B500DFEE56 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CD896492C97B0C600DFEE56 /* RateService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4CD8964B2C97B0D500DFEE56 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				4CD8964C2C97B0E800DFEE56 /* QRScanResources.swift */,
+				4CD8964E2C97B0F600DFEE56 /* WalletImportType.swift */,
+				4CD896502C97B10E00DFEE56 /* WordSuggestor.swift */,
+				4CD896522C97B12100DFEE56 /* WalletNameGenerator.swift */,
+				4CD896542C97B13E00DFEE56 /* CommunityLink.swift */,
+				4CD896562C97B16200DFEE56 /* NodeStatus.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		4CD896582C97B17A00DFEE56 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4CD896592C97B18E00DFEE56 /* SettingsViewModel.swift */,
+				4CD8965B2C97B1A700DFEE56 /* ChainSettingsViewModel.swift */,
+				4CD8965D2C97B1C200DFEE56 /* ChainListSettingsViewModel.swift */,
+				4CD8965F2C97B1D100DFEE56 /* CurrencySceneViewModel.swift */,
+				4CD896612C97B1F000DFEE56 /* SecurityViewModel.swift */,
+				4CD896632C97B1FF00DFEE56 /* ChainNodeViewModel.swift */,
+				4CD896652C97B21000DFEE56 /* NotificationsViewModel.swift */,
+				4CD896672C97B22500DFEE56 /* DeveloperViewModel.swift */,
+				4CD896692C97B23600DFEE56 /* NetworkSelectorViewModel.swift */,
+				4CD8966B2C97B24A00DFEE56 /* NodeStatusViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4CD8966D2C97B25800DFEE56 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4CD8966E2C97B26800DFEE56 /* SettingsScene.swift */,
+				4CD896702C97B28500DFEE56 /* DeveloperScene.swift */,
+				4CD896722C97B29E00DFEE56 /* AboutUsScene.swift */,
+				4CD896742C97B2B000DFEE56 /* ChainListSettingsScene.swift */,
+				4CD896762C97B2C400DFEE56 /* ChainSettingsScene.swift */,
+				4CD896782C97B2D900DFEE56 /* CurrencyScene.swift */,
+				4CD8967A2C97B2EC00DFEE56 /* SecurityScene.swift */,
+				4CD8967C2C97B2FC00DFEE56 /* NotificationsScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2330,6 +2446,7 @@
 				4CD8960A2C97AA1F00DFEE56 /* TransactionsNavigationStack.swift in Sources */,
 				4CA07D3E2C82DCC6008F514F /* NotificationView.swift in Sources */,
 				4CA07CF72C8001A7008F514F /* AddNetworkViewModel.swift in Sources */,
+				4CD8964F2C97B0F600DFEE56 /* WalletImportType.swift in Sources */,
 				4CA07C6A2C7E85FB008F514F /* Bundle+Extension.swift in Sources */,
 				4CD894F42C960E7D00DFEE56 /* ButtonListItem.swift in Sources */,
 				4CD895BD2C97746C00DFEE56 /* ConnectionProposalScene.swift in Sources */,
@@ -2342,13 +2459,16 @@
 				4CD895172C963B4600DFEE56 /* ScanRecipientResult.swift in Sources */,
 				4CD895DB2C977D0F00DFEE56 /* ChartDateFormatter.swift in Sources */,
 				4CA07D6F2C82E76E008F514F /* SecurityView.swift in Sources */,
+				4CD896552C97B13E00DFEE56 /* CommunityLink.swift in Sources */,
 				4CD8953C2C97468D00DFEE56 /* StakeDetailScene.swift in Sources */,
 				4C7931C72C7D1E0D00CD3D3C /* SessionView.swift in Sources */,
 				4CD8954E2C9760A100DFEE56 /* ImportWalletType.swift in Sources */,
 				4CD8957E2C97706800DFEE56 /* WalletDetailViewModel.swift in Sources */,
 				4CD894EB2C960D8D00DFEE56 /* MainTabView.swift in Sources */,
 				4CA07D5D2C82E419008F514F /* SelectNetworkView.swift in Sources */,
+				4CD896752C97B2B000DFEE56 /* ChainListSettingsScene.swift in Sources */,
 				4CA07CCD2C7FEEE1008F514F /* TabViewItem.swift in Sources */,
+				4CD896512C97B10E00DFEE56 /* WordSuggestor.swift in Sources */,
 				4CD8953A2C97466A00DFEE56 /* StakeScene.swift in Sources */,
 				4CA07C582C7E5D67008F514F /* CheckmarkView.swift in Sources */,
 				4CD895B92C97744B00DFEE56 /* ConnectionScene.swift in Sources */,
@@ -2359,9 +2479,11 @@
 				4CA07D572C82E283008F514F /* AddNetworkCardView.swift in Sources */,
 				4CD896312C97ADDB00DFEE56 /* AddAssetViewModel.swift in Sources */,
 				4CD8961A2C97AB1500DFEE56 /* TransactionScene.swift in Sources */,
+				4CD896572C97B16200DFEE56 /* NodeStatus.swift in Sources */,
 				4CD8959A2C9771EA00DFEE56 /* ImportWalletScene.swift in Sources */,
 				4CD894F22C960E6100DFEE56 /* MemoListItem.swift in Sources */,
 				4CD894972C90BF9800DFEE56 /* AssetsService.swift in Sources */,
+				4CD8964A2C97B0C600DFEE56 /* RateService.swift in Sources */,
 				4CA07D2B2C824281008F514F /* LoginSeedPhraseView.swift in Sources */,
 				4CD894CA2C96037700DFEE56 /* Scenes.swift in Sources */,
 				4CD895082C96112B00DFEE56 /* NameRecordViewModel.swift in Sources */,
@@ -2382,6 +2504,7 @@
 				4CA07D2D2C8262A4008F514F /* RegistrationCompleteView.swift in Sources */,
 				4CD895332C972FE000DFEE56 /* NetworkFeeScene.swift in Sources */,
 				4C7931FA2C7E519100CD3D3C /* BackgroundGradientView.swift in Sources */,
+				4CD8967D2C97B2FC00DFEE56 /* NotificationsScene.swift in Sources */,
 				4CD8963D2C97AEAF00DFEE56 /* SelectAssetInput.swift in Sources */,
 				4CA07D322C826D0C008F514F /* TabBarView.swift in Sources */,
 				4CD8960D2C97AA3E00DFEE56 /* TransactionDateFormatter.swift in Sources */,
@@ -2390,12 +2513,14 @@
 				4CA07C8C2C7FDA04008F514F /* TextFieldLimitModifier.swift in Sources */,
 				4CD895962C9771B800DFEE56 /* VerifyPhraseViewModel.swift in Sources */,
 				4CA07D712C82E832008F514F /* PasscodeEntryView.swift in Sources */,
+				4CD8966C2C97B24A00DFEE56 /* NodeStatusViewModel.swift in Sources */,
 				4CA07D0F2C816182008F514F /* PasswordStrengthViewModel.swift in Sources */,
 				4CD8955E2C97687200DFEE56 /* WalletHeaderViewModel.swift in Sources */,
 				4CD894E52C96068600DFEE56 /* WalletsService.swift in Sources */,
 				4CD896032C97A82F00DFEE56 /* FiatQuoteViewModel.swift in Sources */,
 				4CD896212C97AC4900DFEE56 /* SelectAssetScene.swift in Sources */,
 				4CD895562C97610F00DFEE56 /* CopyType.swift in Sources */,
+				4CD8965E2C97B1C200DFEE56 /* ChainListSettingsViewModel.swift in Sources */,
 				4CD895B72C97743700DFEE56 /* ConnectionsScene.swift in Sources */,
 				4CD894C12C958EFF00DFEE56 /* WalletService.swift in Sources */,
 				4CD894E32C96061000DFEE56 /* WalletConnectorInteractable.swift in Sources */,
@@ -2406,6 +2531,7 @@
 				4C7931CF2C7D2F7F00CD3D3C /* CustomText.swift in Sources */,
 				4CD8963F2C97AEC400DFEE56 /* AddTokenInput.swift in Sources */,
 				4CD895D32C977CB300DFEE56 /* ChartPriceModel.swift in Sources */,
+				4CD8966A2C97B23600DFEE56 /* NetworkSelectorViewModel.swift in Sources */,
 				4CD8952F2C963E2800DFEE56 /* FeeUnitViewModel.swift in Sources */,
 				4CA07C5A2C7E664C008F514F /* CustomDividerView.swift in Sources */,
 				4CA07CCB2C7FEC86008F514F /* LocalizableString.swift in Sources */,
@@ -2419,7 +2545,9 @@
 				4CD896352C97ADFE00DFEE56 /* ChainsFilterViewModel.swift in Sources */,
 				4CD8962B2C97AD5300DFEE56 /* AssetSceneViewModel.swift in Sources */,
 				4CA07C982C7FDDD0008F514F /* Colors.swift in Sources */,
+				4CD896732C97B29E00DFEE56 /* AboutUsScene.swift in Sources */,
 				4CD895E62C97A4E100DFEE56 /* AssetHeaderViewModel.swift in Sources */,
+				4CD8965A2C97B18E00DFEE56 /* SettingsViewModel.swift in Sources */,
 				4CD895352C97302100DFEE56 /* AmountScene.swift in Sources */,
 				4CA07CF12C7FFCB5008F514F /* PasswordStrength.swift in Sources */,
 				4CD894F72C960EC500DFEE56 /* ContextMenu.swift in Sources */,
@@ -2434,6 +2562,7 @@
 				4CD895A02C97723100DFEE56 /* VerifyPhraseWalletScene.swift in Sources */,
 				4CD895D12C977CA400DFEE56 /* ChartValuesViewModel.swift in Sources */,
 				4CD895382C97463800DFEE56 /* StakeValidatorsScene.swift in Sources */,
+				4CD896432C97B07300DFEE56 /* SettingsNavigationStack.swift in Sources */,
 				4CD896052C97A84500DFEE56 /* FiatProvidersViewModel.swift in Sources */,
 				4CD895C72C977BC600DFEE56 /* ConnectionProposalViewModel.swift in Sources */,
 				4CD894CE2C9603CC00DFEE56 /* OnstartService.swift in Sources */,
@@ -2471,6 +2600,7 @@
 				4CA07D032C80234C008F514F /* TokenContactDataService.swift in Sources */,
 				4CD894D32C96048800DFEE56 /* ImportAssetsService.swift in Sources */,
 				4CA07CE72C7FFB01008F514F /* SwapCardView.swift in Sources */,
+				4CD896472C97B0A300DFEE56 /* WalletsNavigationStack.swift in Sources */,
 				4C7931D32C7D30C600CD3D3C /* Fonts.swift in Sources */,
 				4CD894BC2C958E1700DFEE56 /* TransferData.swift in Sources */,
 				4CA07C862C7FD90E008F514F /* Date+Extension.swift in Sources */,
@@ -2481,12 +2611,15 @@
 				4CD8951E2C963C0900DFEE56 /* ConfirmTransferViewModel.swift in Sources */,
 				4CD894A82C92BFCC00DFEE56 /* StakeService.swift in Sources */,
 				4CA07D072C80236E008F514F /* TransactionDataService.swift in Sources */,
+				4CD896772C97B2C400DFEE56 /* ChainSettingsScene.swift in Sources */,
 				4CD895EA2C97A51300DFEE56 /* AssetSceneInput.swift in Sources */,
 				4CD8958D2C97715600DFEE56 /* CreateWalletNavigationStack.swift in Sources */,
 				4CA07CD32C7FF1D8008F514F /* NotificationCardView.swift in Sources */,
+				4CD8966F2C97B26800DFEE56 /* SettingsScene.swift in Sources */,
 				4CD894AA2C940CD800DFEE56 /* PriceService.swift in Sources */,
 				4CD895E82C97A4F500DFEE56 /* AssetScene.swift in Sources */,
 				4C7931F62C7D95B400CD3D3C /* AddNetwork.swift in Sources */,
+				4CD8964D2C97B0E800DFEE56 /* QRScanResources.swift in Sources */,
 				4CD895C92C977BEB00DFEE56 /* ConnectionsError.swift in Sources */,
 				4CD894A32C9167DD00DFEE56 /* NodeService.swift in Sources */,
 				4CD895522C9760E100DFEE56 /* WalletImportError.swift in Sources */,
@@ -2510,11 +2643,13 @@
 				4CD894BF2C958EC800DFEE56 /* AmounViewModel.swift in Sources */,
 				4CA07C742C7FA4D6008F514F /* SelectNetworkCardView.swift in Sources */,
 				4CD8957A2C97704600DFEE56 /* ShowSecretPhraseViewModel.swift in Sources */,
+				4CD896682C97B22500DFEE56 /* DeveloperViewModel.swift in Sources */,
 				4CA07C7E2C7FD4AE008F514F /* Font+Extension.swift in Sources */,
 				4CD894D92C96051400DFEE56 /* BannerService.swift in Sources */,
 				4CD894CC2C9603AA00DFEE56 /* CleanUpService.swift in Sources */,
 				4CA07D402C82DD23008F514F /* NotificationDetailView.swift in Sources */,
 				4CD895922C97719100DFEE56 /* ImportWalletTypeViewModel.swift in Sources */,
+				4CD896642C97B1FF00DFEE56 /* ChainNodeViewModel.swift in Sources */,
 				4CA07C6C2C7E87EB008F514F /* PrimaryButton.swift in Sources */,
 				4CA07D4C2C82DF35008F514F /* TokenSelectContactView.swift in Sources */,
 				4CA07C962C7FDD46008F514F /* ClipboardManager.swift in Sources */,
@@ -2526,10 +2661,13 @@
 				4CD8949D2C90C9BB00DFEE56 /* BalanceService.swift in Sources */,
 				4CD895312C97276A00DFEE56 /* FeeUnit.swift in Sources */,
 				4CD8952B2C963DE800DFEE56 /* NetworkFeeViewModel.swift in Sources */,
+				4CD896452C97B08A00DFEE56 /* NetworkSelectorNavigationStack.swift in Sources */,
+				4CD896622C97B1F000DFEE56 /* SecurityViewModel.swift in Sources */,
 				4CA07D1C2C8181CE008F514F /* SplashStartView.swift in Sources */,
 				4CD895FF2C97A7FF00DFEE56 /* BuyAssetScene.swift in Sources */,
 				4CD8955A2C97683A00DFEE56 /* BalanceViewModel.swift in Sources */,
 				4CD895BF2C977B8100DFEE56 /* ConnectionsViewModel.swift in Sources */,
+				4CD896602C97B1D100DFEE56 /* CurrencySceneViewModel.swift in Sources */,
 				4CD8958B2C97714100DFEE56 /* ImportWalletNavigationStack.swift in Sources */,
 				4CA07D4F2C82E025008F514F /* ReceiveView.swift in Sources */,
 				4CA07D5A2C82E3AB008F514F /* WalletView.swift in Sources */,
@@ -2539,6 +2677,7 @@
 				4CD8954C2C9750FF00DFEE56 /* WalletCoordinator+WalletConnector.swift in Sources */,
 				4CD895222C963CAB00DFEE56 /* SwapAmountField.swift in Sources */,
 				4CA07CE52C7FFA35008F514F /* ToolbarContentView.swift in Sources */,
+				4CD896532C97B12100DFEE56 /* WalletNameGenerator.swift in Sources */,
 				4CA07D522C82E073008F514F /* SwapView.swift in Sources */,
 				4CD894C32C96020400DFEE56 /* Localized.swift in Sources */,
 				4CA07D432C82DDC4008F514F /* SuccessView.swift in Sources */,
@@ -2548,6 +2687,7 @@
 				4CA07C8A2C7FD9D5008F514F /* Int+Extension.swift in Sources */,
 				4CA07CD72C7FF2FB008F514F /* NotificationTypeSegmentView.swift in Sources */,
 				4CA07D202C819428008F514F /* WalletSetupView.swift in Sources */,
+				4CD896792C97B2D900DFEE56 /* CurrencyScene.swift in Sources */,
 				4CD894EE2C960DC900DFEE56 /* MainTabViewModel.swift in Sources */,
 				4CD895BB2C97745D00DFEE56 /* SignMessageScene.swift in Sources */,
 				4CA07D632C82E5C4008F514F /* MarketView.swift in Sources */,
@@ -2561,6 +2701,7 @@
 				4CD895292C963D8A00DFEE56 /* TransferDataViewModel.swift in Sources */,
 				4CA07D602C82E47C008F514F /* SendView.swift in Sources */,
 				4CD896412C97AEDB00DFEE56 /* ChainsFilterType.swift in Sources */,
+				4CD896712C97B28500DFEE56 /* DeveloperScene.swift in Sources */,
 				4CD894D52C9604D400DFEE56 /* DeviceService.swift in Sources */,
 				4CD8952D2C963E1000DFEE56 /* FeeRateViewModel.swift in Sources */,
 				4CA07C6E2C7E8854008F514F /* PrimaryButtonText.swift in Sources */,
@@ -2595,9 +2736,11 @@
 				4CD896172C97AAF600DFEE56 /* TransactionStateViewModel.swift in Sources */,
 				4CD8960F2C97AA5700DFEE56 /* TransactionSceneInput.swift in Sources */,
 				4CA07CE12C7FF861008F514F /* Transaction.swift in Sources */,
+				4CD896662C97B21000DFEE56 /* NotificationsViewModel.swift in Sources */,
 				4CD894E82C960D4900DFEE56 /* WalletCoordinator.swift in Sources */,
 				4CA07CD92C7FF36D008F514F /* OptionItemWithCheckmarkView.swift in Sources */,
 				4C7931CB2C7D2D8000CD3D3C /* FavoriteChain.swift in Sources */,
+				4CD8967B2C97B2EC00DFEE56 /* SecurityScene.swift in Sources */,
 				4CD895B12C97730E00DFEE56 /* SwapScene.swift in Sources */,
 				4CA07CD12C7FF0F9008F514F /* HomeThinnerCardView.swift in Sources */,
 				4CA07C5E2C7E76A6008F514F /* CustomTextFieldWithTitle.swift in Sources */,
@@ -2605,6 +2748,7 @@
 				4CA07C822C7FD88B008F514F /* String+Extension.swift in Sources */,
 				4CA07D112C816514008F514F /* SecurityViewModel.swift in Sources */,
 				4CD894AE2C94DA1800DFEE56 /* TransactionService.swift in Sources */,
+				4CD8965C2C97B1A700DFEE56 /* ChainSettingsViewModel.swift in Sources */,
 				4CA07D6C2C82E6F8008F514F /* SelectLanguageView.swift in Sources */,
 				4CD8959C2C97720C00DFEE56 /* ImportWalletTypeScene.swift in Sources */,
 				4CA07C682C7E81DE008F514F /* LocalStorage.swift in Sources */,

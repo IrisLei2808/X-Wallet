@@ -61,7 +61,7 @@ struct ChartView: View {
                     Circle()
                         .strokeBorder(Colors.blue, lineWidth: 2)
                         .background(Circle()
-                        .foregroundColor(Colors.whiteDarkBlue))
+                            .foregroundColor(.white))
                         .frame(width: 12)
                 }
                 .foregroundStyle(Colors.blue)

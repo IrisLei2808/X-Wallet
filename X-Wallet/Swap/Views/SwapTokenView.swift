@@ -39,7 +39,7 @@ struct SwapTokenView: View {
                 HStack {
                     TextField(showLoading ? "" : String.zero, text: $text)
                         .keyboardType(.decimalPad)
-                        .foregroundColor(Colors.black)
+                        .foregroundColor(.black)
                         .font(.system(size: 36))
                         .fontWeight(.semibold)
                         .disabled(disabledTextField)
@@ -54,13 +54,13 @@ struct SwapTokenView: View {
                         Text(model.availableBalanceText)
                             .font(.system(size: 13))
                             .fontWeight(.medium)
-                            .foregroundColor(Colors.secondaryText)
+                            .foregroundColor(Color("#818181"))
                     }
                     Spacer()
                     Text(model.fiatBalance(amount: text))
                         .font(.system(size: 13))
                         .fontWeight(.medium)
-                        .foregroundColor(Colors.secondaryText)
+                        .foregroundColor(Color("#818181"))
             }
         }
     }

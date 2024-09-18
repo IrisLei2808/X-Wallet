@@ -17,7 +17,7 @@ struct SwapChangeView: View {
         Button {
             swap(&fromId, &toId)
         } label: {
-            Image(.swapIcon)
+            Image(.swap)
         }
     }
 }

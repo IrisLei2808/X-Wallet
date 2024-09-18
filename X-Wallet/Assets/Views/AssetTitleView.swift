@@ -27,7 +27,7 @@ struct AssetTitleView: View {
     var body: some View {
         VStack(spacing: 2) {
             Text(model.name)
-                .foregroundColor(Colors.pureBlack)
+                .foregroundColor(.black)
                 .fontWeight(.semibold)
                 .font(.headline)
             if let chainName = model.chainName, let tokenTypeName = model.tokenTypeName {

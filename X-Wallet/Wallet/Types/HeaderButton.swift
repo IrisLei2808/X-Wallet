@@ -24,9 +24,9 @@ struct HeaderButton: Identifiable {
     
     var image: Image {
         switch type {
-        case .send: Image(.upArrow)
-        case .receive: Image(.down)
-        case .buy: Image(.plus)
+        case .send: Image(.arrowUp)
+        case .receive: Image(.arrowDown)
+        case .buy: Image(.createWallet)
         case .swap: Image(.swap)
         }
     }

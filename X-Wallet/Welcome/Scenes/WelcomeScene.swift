@@ -65,7 +65,7 @@ struct WelcomeScene: View {
             }
         }
         .frame(maxWidth: .infinity)
-        .background(Colors.whiteDarkBlue)
+        .background(.white)
         .navigationTitle(model.title)
     }
 }

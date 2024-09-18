@@ -28,7 +28,7 @@ struct ImportWalletTypeScene: View {
                 NavigationLink(value: ImportWalletType.multicoin) {
                     ListItemView(
                         title: Localized.Wallet.multicoin,
-                        image: Image(.testIcon),
+                        image: Image(.multicoin),
                         imageSize: Sizing.image.chain,
                         cornerRadius: Sizing.image.chain/2
                     )

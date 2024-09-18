@@ -25,5 +25,5 @@ struct ChainsFilterViewModel {
         Localized.Settings.Networks.title
     }
     
-    var chainsImage: Image { Image(.settingsNetworks) }
+    var chainsImage: Image { Image(.settingNetworks) }
 }

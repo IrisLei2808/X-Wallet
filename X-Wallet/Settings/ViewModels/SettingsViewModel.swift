@@ -44,13 +44,13 @@ class SettingsViewModel: ObservableObject {
 
     var walletsTitle: String { Localized.Wallets.title }
     var walletsValue: String { "\(walletsService.keystore.wallets.count)" }
-    var walletsImage: Image { Image(.wallet) }
+    var walletsImage: Image { Image(.settingX) }
 
     var securityTitle: String { Localized.Settings.security }
-    var securityImage: Image { Image(.security) }
+    var securityImage: Image { Image(.settingSecurity) }
 
     var notificationsTitle: String { Localized.Settings.Notifications.title }
-    var notificationsImage: Image { Image(.notificationFill) }
+    var notificationsImage: Image { Image(.settingNotifications) }
 
     var currencyTitle: String { Localized.Settings.currency }
     var currencyValue: String {
@@ -71,10 +71,10 @@ class SettingsViewModel: ObservableObject {
         return Locale.current.localizedString(forLanguageCode: code)?.capitalized ?? ""
     }
 
-    var lanugageImage: Image { Image(.language) }
+    var lanugageImage: Image { Image(.settingLanguage) }
 
     var chainsTitle: String { Localized.Settings.Networks.title }
-    var chainsImage: Image { Image(.fantomOpera) }
+    var chainsImage: Image { Image(.settingNetworks) }
 
     var walletConnectTitle: String { Localized.WalletConnect.title }
     var walletConnectImage: Image { Image(.walletConnect) }
@@ -92,13 +92,13 @@ class SettingsViewModel: ObservableObject {
     }
     
     var aboutUsTitle: String { Localized.Settings.aboutus }
-    var aboutUsImage: Image { Image(.settingsGem) }
+    var aboutUsImage: Image { Image(.settingX) }
 
     var rateAppTitle: String { Localized.Settings.rateApp }
-    var rateAppImage: Image { Image(.star) }
+    var rateAppImage: Image { Image(.settingRate) }
 
     var developerModeTitle: String { Localized.Settings.developer }
-    var developerModeImage: Image { Image(.settingsDeveloper) }
+    var developerModeImage: Image { Image(.settingDeveloper) }
 
     var versionTextTitle: String { Localized.Settings.version }
     var versionTextValue: String {
@@ -106,7 +106,7 @@ class SettingsViewModel: ObservableObject {
         let number = Bundle.main.buildVersionNumber
         return "\(version) (\(number))"
     }
-    var versionTextImage: Image { Image(.settingsVersion) }
+    var versionTextImage: Image { Image(.settingVersion) }
 
     var contextCopyTitle: String { Localized.Common.copy }
     var contextDevTitle: String { Localized.Settings.enableValue(Localized.Settings.developer) }

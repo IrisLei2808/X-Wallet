@@ -68,9 +68,9 @@ extension SettingsScene {
             }
 
             NavigationLink(value: Scenes.Currency()) {
-                ListItemView(title: Localized.Settings.currency, subtitle: model.currencyValue, image: Image(.settingsCurrency))
+                ListItemView(title: Localized.Settings.currency, subtitle: model.currencyValue, image: Image(.settingCurrency))
             }
-            #imageLiteral(resourceName: "Screenshot 2024-09-16 at 13.29.57.png")
+            
             NavigationCustomLink(
                 with: ListItemView(
                     title: model.lanugageTitle,

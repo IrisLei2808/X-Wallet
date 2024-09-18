@@ -40,7 +40,7 @@ public struct SwapAmountView: View {
             SwapAmountSingleView(field: from)
             Image(.arrowDown)
                 .resizable()
-                .colorMultiply(Colors.pureBlack)
+                .colorMultiply(.black)
                 .frame(width: 18, height: 22)
                 .scaledToFit()
                 .padding(.bottom, 8)
@@ -58,7 +58,7 @@ public struct SwapAmountSingleView: View {
         HStack(spacing: 0) {
             VStack(alignment: .leading) {
                 Text(field.amount)
-                    .foregroundColor(Colors.pureBlack)
+                    .foregroundColor(.black)
                     .font(.system(size: 24))
                     .scaledToFit()
                     .fontWeight(.medium)

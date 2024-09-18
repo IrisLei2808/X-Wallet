@@ -100,7 +100,7 @@ extension BuyAssetScene {
                             onSelect(amount: amount)
                         }
                         .font(.subheadline.weight(.semibold))
-                        .foregroundStyle(Colors.pureBlack)
+                        .foregroundStyle(.black)
                         .padding(.all, Spacing.small)
                         .background(
                             RoundedRectangle(cornerRadius: 8)

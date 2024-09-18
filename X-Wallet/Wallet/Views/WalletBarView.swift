@@ -49,7 +49,7 @@ struct WalletBarView: View {
                     AssetImageView(assetImage: image, size: 24, overlayImageSize: 10)
                 }
                 Text(model.name)
-                    .foregroundColor(Colors.pureBlack)
+                    .foregroundColor(.black)
                     .fontWeight(.medium)
                     .font(.body)
                     .lineLimit(1)

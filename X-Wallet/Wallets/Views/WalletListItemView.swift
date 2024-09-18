@@ -54,7 +54,7 @@ struct WalletListItemView: View {
                 Spacer()
 
                 if currentWallet == model.wallet {
-                    Image(.tickmark)
+                    Image(.checked)
                 }
 
                 Button(

@@ -38,7 +38,7 @@ struct WalletHeaderView: View {
                 .minimumScaleFactor(0.5)
                 .font(.system(size: 42))
                 .fontWeight(.semibold)
-                .foregroundColor(Colors.pureBlack)
+                .foregroundColor(.black)
                 .lineLimit(1)
                 
             if let subtitle = model.subtitle {
@@ -54,14 +54,14 @@ struct WalletHeaderView: View {
                     Image(systemName: SystemImage.eye)
                     
                     Text(Localized.Wallet.Watch.Tooltip.title)
-                        .foregroundColor(Colors.pureBlack)
+                        .foregroundColor(.black)
                         .font(.callout)
                     
                     Button {
                         UIApplication.shared.open(Docs.url(.whatIsWatchWallet))
                     } label: {
                         Image(systemName: SystemImage.info)
-                            .tint(Colors.pureBlack)
+                            .tint(.black)
                     }
                 }
                 .padding()

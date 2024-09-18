@@ -117,7 +117,7 @@ struct ImportWalletScene: View {
                             }
                         }
                     }
-                    .listRowBackground(Colors.whiteDarkBlue)
+                    .listRowBackground(Color.white)
                 }
             }
             Spacer()

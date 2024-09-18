@@ -1,9 +1,4 @@
-//
-//  TransactionScene.swift
-//  X-Wallet
-//
-//  Created by Duc Le on 9/15/24.
-//
+// Copyright (c). Gem Wallet. All rights reserved.
 
 import Foundation
 import SwiftUI
@@ -137,3 +132,4 @@ extension TransactionScene {
         }
     }
 }
+

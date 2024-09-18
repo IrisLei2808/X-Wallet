@@ -159,7 +159,7 @@ struct WalletCoordinator: View {
                     model: .init(wallet: currentWallet),
                     navigationStateManager: $navigationStateManager
                 )
-                .tint(Colors.pureBlack)
+                .tint(Color.black)
                 .alert(Localized.UpdateApp.title, isPresented: $updateAvailableAlertSheetMessage.mappedToBool()) {
                     Button(Localized.Common.cancel, role: .cancel) { }
                     Button(Localized.UpdateApp.action, role: .none) {

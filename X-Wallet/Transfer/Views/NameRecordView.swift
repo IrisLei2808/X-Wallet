@@ -43,11 +43,11 @@ struct NameRecordView: View {
             case .none:
                 EmptyView()
             case .error:
-                Image(.nameResolveError)
+                Image(.close)
             case .loading:
                 LoadingView()
             case .complete:
-                Image(.nameResolveSuccess)
+                Image(.checked)
             }
         }.frame(width: 16, height: 16)
         .onChange(of: address) {

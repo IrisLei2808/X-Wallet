@@ -1,12 +1,14 @@
-//
-//  Localized.swift
-//  X-Wallet
-//
-//  Created by Duc Le on 9/14/24.
-//
+// swiftlint:disable all
+// Generated using SwiftGen — https://github.com/SwiftGen/SwiftGen
 
 import Foundation
 
+// swiftlint:disable superfluous_disable_command file_length implicit_return prefer_self_in_static_references
+
+// MARK: - Strings
+
+// swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
+// swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 internal enum Localized {
   internal enum Activity {
     /// Activity
@@ -761,3 +763,4 @@ private final class BundleToken {
     #endif
   }()
 }
+// swiftlint:enable convenience_type

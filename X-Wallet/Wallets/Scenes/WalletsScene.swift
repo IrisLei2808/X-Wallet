@@ -1,10 +1,3 @@
-//
-//  WalletsScene.swift
-//  X-Wallet
-//
-//  Created by Duc Le on 9/15/24.
-//
-
 import SwiftUI
 import Components
 import Keystore

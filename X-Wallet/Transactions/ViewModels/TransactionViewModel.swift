@@ -44,9 +44,9 @@ struct TransactionViewModel {
         case .transfer:
             switch transaction.transaction.direction {
             case .incoming:
-                return Image(.transferIncoming)
+                return Image(systemName: "arrowshape.down")
             case .outgoing, .selfTransfer:
-                return Image(.transferOutgoing)
+                return Image(systemName: "arrowshape.up")
             }
         case .swap,
             .tokenApproval,
@@ -228,7 +228,7 @@ struct TransactionViewModel {
             case .incoming:
                 return TextStyle(font: Font.system(.callout, weight: .semibold), color: Colors.green)
             case .outgoing, .selfTransfer:
-                return TextStyle(font: Font.system(.callout, weight: .semibold), color: Colors.pureBlack)
+                return TextStyle(font: Font.system(.callout, weight: .semibold), color: .black)
             }
         case .stakeRewards,
             .swap:

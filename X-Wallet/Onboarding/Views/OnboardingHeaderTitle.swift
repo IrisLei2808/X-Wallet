@@ -13,7 +13,7 @@ struct OnboardingHeaderTitle: View {
     
     var body: some View {
         Text(title)
-            .foregroundColor(Colors.secondaryText)
+            .foregroundColor(Color("#818181"))
             .font(.system(size: 16, weight: .medium))
             .multilineTextAlignment(.center)
             .lineSpacing(Spacing.tiny)

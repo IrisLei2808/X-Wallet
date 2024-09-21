@@ -259,6 +259,7 @@
 		4CD896BD2C97F39600DFEE56 /* TransactionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896BC2C97F39600DFEE56 /* TransactionsList.swift */; };
 		4CD896BF2C97F3C200DFEE56 /* AssetTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896BE2C97F3C200DFEE56 /* AssetTitleView.swift */; };
 		4CD896C22C99477100DFEE56 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CD896C02C99477100DFEE56 /* Localizable.strings */; };
+		4CD896DE2C9E7D0900DFEE56 /* CommunitiesLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD896DD2C9E7D0900DFEE56 /* CommunitiesLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -561,6 +562,7 @@
 		4CD896D52C9A7A5E00DFEE56 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = "../../../gem-ios/Gem/Resources/he.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		4CD896D62C9A7A6400DFEE56 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = "../../../gem-ios/Gem/Resources/id.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		4CD896DB2C9A7E6800DFEE56 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../gem-ios/Gem/Info.plist"; sourceTree = "<group>"; };
+		4CD896DD2C9E7D0900DFEE56 /* CommunitiesLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1605,6 +1607,7 @@
 				4CD896522C97B12100DFEE56 /* WalletNameGenerator.swift */,
 				4CD896542C97B13E00DFEE56 /* CommunityLink.swift */,
 				4CD896562C97B16200DFEE56 /* NodeStatus.swift */,
+				4CD896DD2C9E7D0900DFEE56 /* CommunitiesLink.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -1970,6 +1973,7 @@
 				4CD894BC2C958E1700DFEE56 /* TransferData.swift in Sources */,
 				4CD895F22C97A6B600DFEE56 /* LockScreenScene.swift in Sources */,
 				4CD8950A2C9611C300DFEE56 /* RecipientViewModel.swift in Sources */,
+				4CD896DE2C9E7D0900DFEE56 /* CommunitiesLink.swift in Sources */,
 				4CD8951E2C963C0900DFEE56 /* ConfirmTransferViewModel.swift in Sources */,
 				4CD894A82C92BFCC00DFEE56 /* StakeService.swift in Sources */,
 				4CD896B52C97F31500DFEE56 /* ChartView.swift in Sources */,
@@ -2283,7 +2287,7 @@
 				DEVELOPMENT_TEAM = K524L2Q54B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = X_Wallet;
+				INFOPLIST_KEY_CFBundleDisplayName = "X Wallet";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2315,7 +2319,7 @@
 				DEVELOPMENT_TEAM = K524L2Q54B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = X_Wallet;
+				INFOPLIST_KEY_CFBundleDisplayName = "X Wallet";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

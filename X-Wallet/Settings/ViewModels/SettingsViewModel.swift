@@ -80,12 +80,12 @@ class SettingsViewModel: ObservableObject {
     var walletConnectImage: Image { Image(.walletConnect) }
 
     var commutinyTitle: String { Localized.Settings.community }
-    var communityLinks: [CommunityLink] {
-        let links: [SocialUrl] = [.x, .discord, .telegram, .gitHub, .youTube]
+    var communityLinks: [CommunitiesLink] {
+        let links: [SocicalUrls] = [.reddit, .gitHub, .youTube, .telegram, .discord, .coingecko]
 
         return links.compactMap {
-            if let url = Social.url($0) {
-                return CommunityLink(type: $0, url: url)
+            if let url = Socials.url($0) {
+                return CommunitiesLink(type: $0, url: url)
             }
             return .none
         }

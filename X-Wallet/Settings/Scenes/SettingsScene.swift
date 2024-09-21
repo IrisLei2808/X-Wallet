@@ -174,7 +174,7 @@ extension SettingsScene {
     }
 
     @MainActor
-    private func onSelectCommutity(link: CommunityLink) {
+    private func onSelectCommutity(link: CommunitiesLink) {
         openURL(link.url)
     }
 

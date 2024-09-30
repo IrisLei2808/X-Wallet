@@ -44,7 +44,7 @@ class SettingsViewModel: ObservableObject {
 
     var walletsTitle: String { Localized.Wallets.title }
     var walletsValue: String { "\(walletsService.keystore.wallets.count)" }
-    var walletsImage: Image { Image(.settingX) }
+    var walletsImage: Image { Image(.tabWallet) }
 
     var securityTitle: String { Localized.Settings.security }
     var securityImage: Image { Image(.settingSecurity) }
@@ -92,7 +92,7 @@ class SettingsViewModel: ObservableObject {
     }
     
     var aboutUsTitle: String { Localized.Settings.aboutus }
-    var aboutUsImage: Image { Image(.settingX) }
+    var aboutUsImage: Image { Image(.tabWallet) }
 
     var rateAppTitle: String { Localized.Settings.rateApp }
     var rateAppImage: Image { Image(.settingRate) }

@@ -160,14 +160,14 @@ struct WalletCoordinator: View {
                     navigationStateManager: $navigationStateManager
                 )
                 .tint(Color.black)
-                .alert(Localized.UpdateApp.title, isPresented: $updateAvailableAlertSheetMessage.mappedToBool()) {
-                    Button(Localized.Common.cancel, role: .cancel) { }
-                    Button(Localized.UpdateApp.action, role: .none) {
-                        UIApplication.shared.open(PublicConstants.url(.appStore))
-                    }
-                } message: {
-                    Text(Localized.UpdateApp.description(updateAvailableAlertSheetMessage ?? ""))
-                }
+//                .alert(Localized.UpdateApp.title, isPresented: $updateAvailableAlertSheetMessage.mappedToBool()) {
+//                    Button(Localized.Common.cancel, role: .cancel) { }
+//                    Button(Localized.UpdateApp.action, role: .none) {
+//                        UIApplication.shared.open(PublicConstants.url(.appStore))
+//                    }
+//                } message: {
+//                    Text(Localized.UpdateApp.description(updateAvailableAlertSheetMessage ?? ""))
+//                }
                 .environment(\.db, db)
                 .environment(\.nodeService, nodeService)
                 .environment(\.keystore, keystore)

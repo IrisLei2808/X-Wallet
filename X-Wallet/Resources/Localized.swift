@@ -731,7 +731,7 @@ internal enum Localized {
   }
   internal enum Welcome {
     /// Welcome to Gem Family
-    internal static let title = Localized.tr("Localizable", "welcome.title", fallback: "Welcome to Gem Family")
+    internal static let title = Localized.tr("Localizable", "welcome.title", fallback: "Welcome to X Family")
     internal enum Legal {
       /// By using Gem, you agree to accept our
       ///  [Terms of Use](%s) and [Privacy Policy](%s)

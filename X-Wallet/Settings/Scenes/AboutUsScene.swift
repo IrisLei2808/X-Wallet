@@ -17,13 +17,13 @@ struct AboutUsScene: View {
         List {
             Section {
                 NavigationCustomLink(with: ListItemView(title: Localized.Settings.termsOfServices)) {
-                    UIApplication.shared.open(PublicConstants.url(.termsOfService))
+                  //  UIApplication.shared.open(PublicConstants.url(.termsOfService))
                 }
                 NavigationCustomLink(with: ListItemView(title: Localized.Settings.privacyPolicy)) {
-                    UIApplication.shared.open(PublicConstants.url(.privacyPolicy))
+                    //  UIApplication.shared.open(PublicConstants.url(.privacyPolicy))
                 }
                 NavigationCustomLink(with: ListItemView(title: Localized.Settings.website)) {
-                    UIApplication.shared.open(PublicConstants.url(.website))
+                  //  UIApplication.shared.open(PublicConstants.url(.website))
                 }
             }
         }
